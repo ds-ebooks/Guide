@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title><![CDATA[学习向导]]></title>
+        <description><![CDATA[提供专业化的书单，为自己建立一个清晰的学习路线.]]></description>
+        <link>http://ds-ebooks.github.io/Guide/</link>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 05 Sep 2018 05:07:36 GMT</lastBuildDate>
+        <atom:link href="http://ds-ebooks.github.io/Guide/sitmap.xml" rel="self" type="application/rss+xml"/>
+        <author><![CDATA[S]]></author>
+        <managingEditor><![CDATA[super@ds-vip.top]]></managingEditor>
+        <webMaster><![CDATA[super@ds-vip.top]]></webMaster>
+        <category><![CDATA[gitbook]]></category>
+        <item>
+            <title><![CDATA[简介]]></title>
+            <description><![CDATA[学习向导，收集整理免费的计算机与编程相关的网络资料，旨在为大家提供一个可供参考的书籍目录，方便自己和别人学习查阅。]]></description>
+            <link>http://ds-ebooks.github.io/Guide/</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Python 资源大全中文版]]></title>
+            <description><![CDATA[我想很多程序员应该记得 GitHub 上有一个 Awesome - XXX 系列的资源整理。awesome-python 是 vinta 发起维护的 Python 资源列表，内容包括：Web 框架、网络爬虫、网络内容提取、模板引擎、数据库、数据可视化、图片处理、文本处理、自然语言处理、机器学习、日志、代码分析等。由伯乐在线持续更新。]]></description>
+            <link>http://ds-ebooks.github.io/Guide/python/python-cn.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/python/python-cn.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Awesome Python]]></title>
+            <description><![CDATA[A curated list of awesome Python frameworks, libraries, software and resources.]]></description>
+            <link>http://ds-ebooks.github.io/Guide/python/python-en.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/python/python-en.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[awesome-python-books]]></title>
+            <description><![CDATA[好的技术书籍可以帮助我们快速地成长，大部分人或多或少地受益于经典的技术书籍。在「Python开发者」微信公号后台，我们经常能收到让帮忙推荐书籍的消息。这类的问题在@Python开发者 微博 和 伯乐在线的 Python小组 讨论中也不绝于耳。 7月3日，伯乐在线在「Python开发者」微信公号发起了一个讨论 （注：PC端无法看到大家的评论，需要关注微信公号后，从微信才可以看到），通过这个讨论话题，在评论中分享对自己帮助很大的Python技术书籍。]]></description>
+            <link>http://ds-ebooks.github.io/Guide/python/python-books.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/python/python-books.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[机器学习资源大全中文版]]></title>
+            <description><![CDATA[我想很多程序员应该记得 GitHub 上有一个 Awesome - XXX 系列的资源整理。awesome-machine-learning 就是 josephmisiti 发起维护的机器学习资源列表，内容包括了机器学习领域的框架、库以及软件（按编程语言排序）。]]></description>
+            <link>http://ds-ebooks.github.io/Guide/python/machine-learning-cn.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/python/machine-learning-cn.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[MySQL 资源大全中文版]]></title>
+            <description><![CDATA[我想很多程序员应该记得 GitHub 上有一个 Awesome - XXX 系列的资源整理。awesome-mysql 就是 shlomi-noach 发起维护的 MySQL 资源列表，内容包括：分析工具、备份、性能测试、配置、部署、GUI 等。]]></description>
+            <link>http://ds-ebooks.github.io/Guide/python/MySQL-cn.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/python/MySQL-cn.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[build your own x]]></title>
+            <description><![CDATA[Contributions are very welcome: Submit tutorial]]></description>
+            <link>http://ds-ebooks.github.io/Guide/other-language/build-your-own-x-en.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/other-language/build-your-own-x-en.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[免费的编程中文书籍索引]]></title>
+            <description><![CDATA[============================]]></description>
+            <link>http://ds-ebooks.github.io/Guide/other-language/programming-books-cn.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/other-language/programming-books-cn.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Java资源大全中文版]]></title>
+            <description><![CDATA[我想很多程序员应该记得 GitHub 上有一个 Awesome - XXX 系列的资源整理。awesome-java 就是 akullpp 发起维护的 Java 资源列表，内容包括：构建工具、数据库、框架、模板、安全、代码分析、日志、第三方库、书籍、Java 站点等等。伯乐在线已经把 awesome-java 资源列表翻成中文后发布于 ImportNew。]]></description>
+            <link>http://ds-ebooks.github.io/Guide/other-language/java-cn.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/other-language/java-cn.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[JavaScript 资源大全中文版]]></title>
+            <description><![CDATA[我想很多程序员应该记得 GitHub 上有一个 Awesome - XXX 系列的资源整理。awesome-javascript 是 sorrycc 发起维护的 JS 资源列表，内容包括：包管理器、加载器、测试框架、运行器、QA、MVC框架和库、模板引擎、数据可视化、时间轴、编辑器等等]]></description>
+            <link>http://ds-ebooks.github.io/Guide/other-language/javescript-cn.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/other-language/javescript-cn.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[C++ 资源大全中文版]]></title>
+            <description><![CDATA[我想很多程序员应该记得 GitHub 上有一个 Awesome - XXX 系列的资源整理。awesome-cpp 就是 fffaraz 发起维护的 C++ 资源列表，内容包括：标准库、Web应用框架、人工智能、数据库、图片处理、机器学习、日志、代码分析等。]]></description>
+            <link>http://ds-ebooks.github.io/Guide/other-language/cpp-cn.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/other-language/cpp-cn.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[C 语言资源大全中文版]]></title>
+            <description><![CDATA[我想很多程序员应该记得 GitHub 上有一个 Awesome：XXX 系列的资源整理。awesome-c 是 koz.ross 发起维护的 C 语言资源列表，内容包括了：构建系统、编译器、数据库、加密、初中高的教程/指南、书籍、库等等。]]></description>
+            <link>http://ds-ebooks.github.io/Guide/other-language/c-cn.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/other-language/c-cn.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[补充书单]]></title>
+            <link>http://ds-ebooks.github.io/Guide/tools/book-list.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/tools/book-list.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[Tool Guide]]></title>
+            <description><![CDATA[<a href='#目录'>返回目录</a>]]></description>
+            <link>http://ds-ebooks.github.io/Guide/tools/guide.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/tools/guide.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[非编程类书籍]]></title>
+            <description><![CDATA[在 stackoverflow 上有人提问 程序员应该阅读的非编程类书籍有哪些？ 本来只想整理编程类书籍，
+不过突然眼前一亮，发现了《The Art of War - Sun Tzu》回答者的推荐说明引用 Wikipedia 上的：]]></description>
+            <link>http://ds-ebooks.github.io/Guide/tools/non-programming-book.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/tools/non-programming-book.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+        <item>
+            <title><![CDATA[No title]]></title>
+            <link>http://ds-ebooks.github.io/Guide/GLOSSARY.html</link>
+            <guid isPermaLink="true">http://ds-ebooks.github.io/Guide/GLOSSARY.html</guid>
+            <dc:creator><![CDATA[S]]></dc:creator>
+        </item>
+    </channel>
+</rss>

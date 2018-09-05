@@ -1,0 +1,1295 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>C 语言资源大全中文版 · 学习向导</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="S">
+        
+        
+    
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-prism/prism-base16-ateliersulphurpool.light.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-advanced-emoji/emoji-website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchors/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-ace/ace.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-emphasize/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-katex/katex.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.css">
+                
+            
+                
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-sectionx/sectionx.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-donate/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-local-video/video-js.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-terminal/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-alerts/style.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+
+    
+
+        
+    
+    
+    
+    
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../tools/book-list.html" />
+    
+    
+    <link rel="prev" href="cpp-cn.html" />
+    
+
+    
+    <link rel="stylesheet" href="../gitbook/gitbook-plugin-chart/c3/c3.min.css">
+    <script src="../gitbook/gitbook-plugin-chart/c3/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-chart/c3/c3.min.js"></script>
+    
+
+    <script src="../gitbook/gitbook-plugin-graph/d3.min.js"></script>
+    <script src="../gitbook/gitbook-plugin-graph/function-plot.js"></script>    
+
+    <link href="http://ds-ebooks.github.io/Guide/sitmap.xml" title="学习向导" rel="alternate" type="application/rss+xml" />
+
+    
+        <link rel="shortcut icon" href='../favicon.png' type="image/x-icon">
+    
+    
+        <link rel="bookmark" href='../favicon.png' type="image/x-icon">
+    
+    
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"repo":"ds-ebooks/Guide","types":["star","watch","fork"],"size":"small"};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://www.ds-vip.top" target="_blank" class="custom-link">Home</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                        <b>1.</b>
+                    
+                    简介
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">Python学习</li>
+        
+        
+    
+        <li class="chapter " data-level="1" data-path="../python/python-cn.html">
+            
+                <a href="../python/python-cn.html">
+            
+                    
+                        <b>1.</b>
+                    
+                    Python 资源大全中文版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="../python/python-en.html">
+            
+                <a href="../python/python-en.html">
+            
+                    
+                        <b>2.</b>
+                    
+                    Python 资源大全英文版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="../python/python-books.html">
+            
+                <a href="../python/python-books.html">
+            
+                    
+                        <b>3.</b>
+                    
+                    Python 技术书
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="../python/machine-learning-cn.html">
+            
+                <a href="../python/machine-learning-cn.html">
+            
+                    
+                        <b>4.</b>
+                    
+                    机器学习资源大全中文版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="../python/MySQL-cn.html">
+            
+                <a href="../python/MySQL-cn.html">
+            
+                    
+                        <b>5.</b>
+                    
+                    MySQL资源大全中文版
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">其他语言</li>
+        
+        
+    
+        <li class="chapter " data-level="1" data-path="build-your-own-x-en.html">
+            
+                <a href="build-your-own-x-en.html">
+            
+                    
+                        <b>1.</b>
+                    
+                    搭建自己的...
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="programming-books-cn.html">
+            
+                <a href="programming-books-cn.html">
+            
+                    
+                        <b>2.</b>
+                    
+                    编程中文书籍索引
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="java-cn.html">
+            
+                <a href="java-cn.html">
+            
+                    
+                        <b>3.</b>
+                    
+                    Java资源大全中文版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4" data-path="javescript-cn.html">
+            
+                <a href="javescript-cn.html">
+            
+                    
+                        <b>4.</b>
+                    
+                    JavaScript 资源大全中文版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5" data-path="cpp-cn.html">
+            
+                <a href="cpp-cn.html">
+            
+                    
+                        <b>5.</b>
+                    
+                    C++ 资源大全中文版
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="6" data-path="c-cn.html">
+            
+                <a href="c-cn.html">
+            
+                    
+                        <b>6.</b>
+                    
+                    C 语言资源大全中文版
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">工具相关</li>
+        
+        
+    
+        <li class="chapter " data-level="1" data-path="../tools/book-list.html">
+            
+                <a href="../tools/book-list.html">
+            
+                    
+                        <b>1.</b>
+                    
+                    补充书籍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2" data-path="../tools/guide.html">
+            
+                <a href="../tools/guide.html">
+            
+                    
+                        <b>2.</b>
+                    
+                    工具向导
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3" data-path="../tools/non-programming-book.html">
+            
+                <a href="../tools/non-programming-book.html">
+            
+                    
+                        <b>3.</b>
+                    
+                    非编程类书籍
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >C 语言资源大全中文版</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-anchor"></i><ul><li><a href="#c-&#x8BED;&#x8A00;&#x8D44;&#x6E90;&#x5927;&#x5168;&#x4E2D;&#x6587;&#x7248;">1. C &#x8BED;&#x8A00;&#x8D44;&#x6E90;&#x5927;&#x5168;&#x4E2D;&#x6587;&#x7248;</a></li><ul><li><a href="#&#x76EE;&#x5F55;">1.1. &#x76EE;&#x5F55;</a></li><li><a href="#build-systems">1.2. &#x6784;&#x5EFA;&#x7CFB;&#x7EDF;</a></li><li><a href="#compilers">1.3. &#x7F16;&#x8BD1;&#x5668;</a></li><li><a href="#crypto">1.4. &#x52A0;&#x5BC6;</a></li><li><a href="#database">1.5. &#x6570;&#x636E;&#x5E93;</a></li><li><a href="#documentation-generation">1.6. &#x6587;&#x6863;&#x751F;&#x6210;</a></li><li><a href="#editors">1.7. &#x7F16;&#x8F91;&#x5668;</a></li><li><a href="#environments">1.8. &#x73AF;&#x5883;</a></li><li><a href="#frameworks">1.9. &#x6846;&#x67B6;</a></li><li><a href="#game-programming">1.10. &#x6E38;&#x620F;&#x7F16;&#x7A0B;</a></li><ul><li><a href="#engines">1.10.1. &#x5F15;&#x64CE;</a></li><li><a href="#resources">1.10.2. &#x8D44;&#x6E90;</a></li></ul><li><a href="#generic-programming">1.11. &#x901A;&#x7528;&#x7F16;&#x7A0B;</a></li><li><a href="#graphics">1.12. &#x56FE;&#x5F62;</a></li><li><a href="#gui">1.13. GUI</a></li><li><a href="#json">1.14. JSON</a></li><li><a href="#learning-reference-and-tutorials">1.15. &#x5B66;&#x4E60;&#x3001;&#x53C2;&#x8003;&#x548C;&#x6307;&#x5357;</a></li><ul><li><a href="#&#x5728;&#x7EBF;">1.15.1. &#x5728;&#x7EBF;</a></li><li><a href="#&#x5B9E;&#x4F53;&#x4E66;">1.15.2. &#x5B9E;&#x4F53;&#x4E66;</a></li></ul><li><a href="#multimedia">1.16. &#x591A;&#x5A92;&#x4F53;</a></li><li><a href="#networking-and-internet">1.17. &#x7F51;&#x7EDC;&#x7F16;&#x7A0B;</a></li><ul><li><a href="#web-frameworks">1.17.1. Web&#x6846;&#x67B6;</a></li></ul><li><a href="##numerical">1.18. &#x6570;&#x503C;&#x8BA1;&#x7B97;</a></li><li><a href="#parallel-programming">1.19. &#x5E76;&#x884C;&#x7F16;&#x7A0B;</a></li><li><a href="#regex">1.20. &#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</a></li><li><a href="#serialization">1.21. &#x5E8F;&#x5217;&#x5316;</a></li><li><a href="#source-code-collections">1.22. &#x6E90;&#x7801;&#x96C6;&#x9526;</a></li><li><a href="#standard-libraries">1.23. &#x6807;&#x51C6;&#x5E93;</a></li><li><a href="#string-manipulation">1.24. &#x5B57;&#x7B26;&#x4E32;&#x5904;&#x7406;</a></li><li><a href="#testing">1.25. &#x6D4B;&#x8BD5;&#x5DE5;&#x5177;</a></li><li><a href="#text-editor-extensions">1.26. &#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#x6269;&#x5C55;</a></li><ul><li><a href="#emacs">1.26.1. Emacs</a></li><li><a href="#vim">1.26.2. Vim</a></li></ul><li><a href="#tools">1.27. &#x5DE5;&#x5177;</a></li><li><a href="#utilities">1.28. &#x5176;&#x4ED6;&#x5DE5;&#x5177;</a></li><li><a href="#xml">1.29. XML</a></li><li><a href="#resources-2">1.30. &#x5176;&#x4ED6;&#x8D44;&#x6E90;</a></li><ul><li><a href="#influential-books">1.30.1. &#x6709;&#x5F71;&#x54CD;&#x529B;&#x7684;&#x4E66;</a></li><li><a href="#websites-blogs">1.30.2. &#x77E5;&#x540D;&#x7F51;&#x7AD9;/&#x535A;&#x5BA2;</a></li><li><a href="#weibo-weixin">1.30.3. &#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;</a></li></ul></ul></ul></div><a href="#c-&#x8BED;&#x8A00;&#x8D44;&#x6E90;&#x5927;&#x5168;&#x4E2D;&#x6587;&#x7248;" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h1 id="c-&#x8BED;&#x8A00;&#x8D44;&#x6E90;&#x5927;&#x5168;&#x4E2D;&#x6587;&#x7248;"><a name="c-&#x8BED;&#x8A00;&#x8D44;&#x6E90;&#x5927;&#x5168;&#x4E2D;&#x6587;&#x7248;" class="anchor-navigation-ex-anchor" href="#c-&#x8BED;&#x8A00;&#x8D44;&#x6E90;&#x5927;&#x5168;&#x4E2D;&#x6587;&#x7248;"><i class="fa fa-link" aria-hidden="true"></i></a>1. C &#x8BED;&#x8A00;&#x8D44;&#x6E90;&#x5927;&#x5168;&#x4E2D;&#x6587;&#x7248;</h1>
+<blockquote>
+<p>&#x6765;&#x6E90;&#xFF1A;<a href="https://github.com/jobbole/awesome-c-cn" target="_blank">c-cn</a></p>
+</blockquote>
+<p>&#x6211;&#x60F3;&#x5F88;&#x591A;&#x7A0B;&#x5E8F;&#x5458;&#x5E94;&#x8BE5;&#x8BB0;&#x5F97; GitHub &#x4E0A;&#x6709;&#x4E00;&#x4E2A; Awesome&#xFF1A;XXX &#x7CFB;&#x5217;&#x7684;&#x8D44;&#x6E90;&#x6574;&#x7406;&#x3002;<a href="https://notabug.org/koz.ross/awesome-c" target="_blank">awesome-c</a> &#x662F; koz.ross &#x53D1;&#x8D77;&#x7EF4;&#x62A4;&#x7684; C &#x8BED;&#x8A00;&#x8D44;&#x6E90;&#x5217;&#x8868;&#xFF0C;&#x5185;&#x5BB9;&#x5305;&#x62EC;&#x4E86;&#xFF1A;&#x6784;&#x5EFA;&#x7CFB;&#x7EDF;&#x3001;&#x7F16;&#x8BD1;&#x5668;&#x3001;&#x6570;&#x636E;&#x5E93;&#x3001;&#x52A0;&#x5BC6;&#x3001;&#x521D;&#x4E2D;&#x9AD8;&#x7684;&#x6559;&#x7A0B;/&#x6307;&#x5357;&#x3001;&#x4E66;&#x7C4D;&#x3001;&#x5E93;&#x7B49;&#x7B49;&#x3002;</p>
+<p>Awesome &#x7CFB;&#x5217;&#x867D;&#x7136;&#x633A;&#x5168;&#xFF0C;&#x4F46;&#x57FA;&#x672C;&#x53EA;&#x5BF9;&#x6536;&#x5F55;&#x7684;&#x8D44;&#x6E90;&#x505A;&#x4E86;&#x6781;&#x4E3A;&#x7B80;&#x8981;&#x7684;&#x4ECB;&#x7ECD;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x66F4;&#x8BE6;&#x7EC6;&#x7684;&#x4E2D;&#x6587;&#x4ECB;&#x7ECD;&#xFF0C;&#x5BF9;&#x76F8;&#x5E94;&#x5F00;&#x53D1;&#x8005;&#x7684;&#x5E2E;&#x52A9;&#x4F1A;&#x66F4;&#x5927;&#x3002;&#x8FD9;&#x4E5F;&#x662F;&#x6211;&#x4EEC;&#x53D1;&#x8D77;&#x8FD9;&#x4E2A;&#x5F00;&#x6E90;&#x9879;&#x76EE;&#x7684;&#x521D;&#x8877;&#x3002;</p>
+<hr>
+<h3 id="&#x6211;&#x4EEC;&#x8981;&#x505A;&#x4EC0;&#x4E48;&#xFF1F;"><a name="&#x6211;&#x4EEC;&#x8981;&#x505A;&#x4EC0;&#x4E48;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x6211;&#x4EEC;&#x8981;&#x505A;&#x4EC0;&#x4E48;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6211;&#x4EEC;&#x8981;&#x505A;&#x4EC0;&#x4E48;&#xFF1F;</h3>
+<ul>
+<li>&#x57FA;&#x4E8E; awesome-c &#x5217;&#x8868;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x5BF9;&#x5176;&#x4E2D;&#x7684;&#x5404;&#x4E2A;&#x8D44;&#x6E90;&#x9879;&#x8FDB;&#x884C;&#x7F16;&#x8BD1;&#x6574;&#x7406;&#x3002;&#x6B64;&#x5916;&#x8FD8;&#x5C06;&#x4ECE;&#x5176;&#x4ED6;&#x6765;&#x6E90;&#x8865;&#x5145;&#x597D;&#x8D44;&#x6E90;&#x3002;</li>
+<li>&#x6574;&#x7406;&#x540E;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x5C06;&#x6536;&#x5F55;&#x5728;<a href="http://hao.jobbole.com/" target="_blank">&#x4F2F;&#x4E50;&#x5728;&#x7EBF;&#x8D44;&#x6E90;&#x9891;&#x9053;</a>&#x3002;&#x53EF;&#x53C2;&#x8003;&#x5DF2;&#x6574;&#x7406;&#x7684;&#x5185;&#x5BB9;&#xFF1A;<ul>
+<li>&#x300A;<a href="http://hao.jobbole.com/libphenom/" target="_blank">libPhenom&#xFF1A;Facebook&#x5F00;&#x6E90;&#x7684;&#x9AD8;&#x6027;&#x80FD;C&#x8BED;&#x8A00;&#x5E76;&#x53D1;&#x7F16;&#x7A0B;&#x6846;&#x67B6;</a>&#x300B;</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h3 id="&#x5982;&#x4F55;&#x53C2;&#x4E0E;&#x672C;&#x9879;&#x76EE;&#xFF1F;"><a name="&#x5982;&#x4F55;&#x53C2;&#x4E0E;&#x672C;&#x9879;&#x76EE;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x5982;&#x4F55;&#x53C2;&#x4E0E;&#x672C;&#x9879;&#x76EE;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5982;&#x4F55;&#x53C2;&#x4E0E;&#x672C;&#x9879;&#x76EE;&#xFF1F;</h3>
+<!-- 从下面的目录来看，本项目的工作量小不了，所以非常期待能有更多程序员一起来参与。
+
+不过加入前，有几个小要求：
+
+* 英文还不错，能读懂英文并用自己的话复述；
+* 在用 C 语言；
+
+如有兴趣，请加 QQ：50872495。加 Q 时请注明「C语言大全」。// 这不是 QQ 群。 -->
+<hr>
+<h3 id="&#x5982;&#x4F55;&#x4E3A;&#x5217;&#x8868;&#x8D21;&#x732E;&#x65B0;&#x8D44;&#x6E90;&#xFF1F;"><a name="&#x5982;&#x4F55;&#x4E3A;&#x5217;&#x8868;&#x8D21;&#x732E;&#x65B0;&#x8D44;&#x6E90;&#xFF1F;" class="anchor-navigation-ex-anchor" href="#&#x5982;&#x4F55;&#x4E3A;&#x5217;&#x8868;&#x8D21;&#x732E;&#x65B0;&#x8D44;&#x6E90;&#xFF1F;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5982;&#x4F55;&#x4E3A;&#x5217;&#x8868;&#x8D21;&#x732E;&#x65B0;&#x8D44;&#x6E90;&#xFF1F;</h3>
+<p>&#x6B22;&#x8FCE;&#x5927;&#x5BB6;&#x4E3A;&#x5217;&#x8868;&#x8D21;&#x732E;&#x9AD8;&#x8D28;&#x91CF;&#x7684;&#x65B0;&#x8D44;&#x6E90;&#xFF0C;&#x63D0;&#x4EA4;PR&#x65F6;&#x8BF7;&#x53C2;&#x7167;&#x4EE5;&#x4E0B;&#x8981;&#x6C42;&#xFF1A;</p>
+<ul>
+<li>&#x8BF7;&#x786E;&#x4FDD;&#x63A8;&#x8350;&#x7684;&#x8D44;&#x6E90;&#x81EA;&#x5DF1;&#x4F7F;&#x7528;&#x8FC7;</li>
+<li>&#x63D0;&#x4EA4;PR&#x65F6;&#x8BF7;&#x6CE8;&#x660E;&#x63A8;&#x8350;&#x7406;&#x7531;</li>
+</ul>
+<p>&#x8D44;&#x6E90;&#x5217;&#x8868;&#x7BA1;&#x7406;&#x6536;&#x5230;PR&#x8BF7;&#x6C42;&#x540E;&#xFF0C;&#x4F1A;&#x5B9A;&#x671F;&#xFF08;&#x6BCF;&#x5468;&#xFF09;&#x5728;&#x5FAE;&#x535A;&#x8F6C;&#x53D1;&#x672C;&#x5468;&#x63D0;&#x4EA4;&#x7684;PR&#x5217;&#x8868;&#xFF0C;&#x5E76;&#x5728;&#x5FAE;&#x535A;&#x4E0A;&#x9762;&#x542C;&#x53D6;&#x4F7F;&#x7528;&#x8FC7;&#x8FD9;&#x4E9B;&#x8D44;&#x6E90;&#x7684;&#x610F;&#x89C1;&#x3002;&#x786E;&#x8BA4;&#x901A;&#x8FC7;&#x540E;&#xFF0C;&#x4F1A;&#x52A0;&#x5165;&#x8D44;&#x6E90;&#x5927;&#x5168;&#x3002;</p>
+<p>&#x611F;&#x8C22;&#x60A8;&#x7684;&#x8D21;&#x732E;&#xFF01;</p>
+<hr>
+<h3 id="&#x672C;&#x9879;&#x76EE;&#x7684;&#x53C2;&#x4E0E;&#x8005;"><a name="&#x672C;&#x9879;&#x76EE;&#x7684;&#x53C2;&#x4E0E;&#x8005;" class="anchor-navigation-ex-anchor" href="#&#x672C;&#x9879;&#x76EE;&#x7684;&#x53C2;&#x4E0E;&#x8005;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x672C;&#x9879;&#x76EE;&#x7684;&#x53C2;&#x4E0E;&#x8005;</h3>
+<ul>
+<li>&#x7EF4;&#x62A4;&#x8005;&#xFF1A;</li>
+<li>&#x8D21;&#x732E;&#x8005;&#xFF1A;<a href="http://www.jobbole.com/members/Yonah/" target="_blank">Yonah&#x6F47;</a>&#x3001;<a href="http://www.jobbole.com/members/lighter_cd/" target="_blank">&#x9AB7;&#x9AC5;</a>&#x3001;<a href="http://www.jobbole.com/members/jianghehe/" target="_blank">&#x8D3A;&#x8D3A;</a>&#x3001;<a href="http://www.jobbole.com/members/beyondwu/" target="_blank">beyondwu</a>&#x3001;<a href="https://github.com/MiterV1" target="_blank">Huang Lin</a>&#x3001;<a href="https://github.com/Anloper" target="_blank">Anloper</a>&#x3001;<a href="http://www.jobbole.com/members/libing1209/" target="_blank">&#x51B0;&#x658C;</a></li>
+</ul>
+<p>&#x6CE8;&#xFF1A;&#x540D;&#x5355;&#x4E0D;&#x5206;&#x6392;&#x540D;&#xFF0C;&#x4E0D;&#x5B9A;&#x671F;&#x8865;&#x5145;&#x66F4;&#x65B0;</p>
+<hr>
+<!-- ### 奖励计划
+
+虽然奖励可能并不是你加入的主要原因，但还是有必要提一下：
+
+* 整理超过 20 个资源后，可在伯乐在线上开通打赏；
+* 每整理 20 个资源，有机会获得技术书籍或各种有意思的创意、极客产品；
+* [奖励详情](http://hao.jobbole.com/rewards/)
+
+* * * -->
+<h2 id="&#x76EE;&#x5F55;"><a name="&#x76EE;&#x5F55;" class="anchor-navigation-ex-anchor" href="#&#x76EE;&#x5F55;"><i class="fa fa-link" aria-hidden="true"></i></a>1.1. &#x76EE;&#x5F55;</h2>
+<ul>
+<li><a href="#build-systems">&#x6784;&#x5EFA;&#x7CFB;&#x7EDF;</a></li>
+<li><a href="#compilers">&#x7F16;&#x8BD1;&#x5668;</a></li>
+<li><a href="#crypto">&#x52A0;&#x5BC6;</a></li>
+<li><a href="#database">&#x6570;&#x636E;&#x5E93;</a></li>
+<li><a href="#documentation-generation">&#x6587;&#x6863;&#x751F;&#x6210;</a></li>
+<li><a href="#editors">&#x7F16;&#x8F91;&#x5668;</a></li>
+<li><a href="#environments">&#x73AF;&#x5883;</a></li>
+<li><a href="#frameworks">&#x6846;&#x67B6;</a></li>
+<li><a href="#game-programming">&#x6E38;&#x620F;&#x7F16;&#x7A0B;</a><ul>
+<li><a href="#engines">&#x5F15;&#x64CE;</a></li>
+<li><a href="#resources">&#x8D44;&#x6E90;</a></li>
+</ul>
+</li>
+<li><a href="#generic-programming">&#x901A;&#x7528;&#x7F16;&#x7A0B;</a></li>
+<li><a href="#graphics">&#x56FE;&#x5F62;</a></li>
+<li><a href="#gui">GUI</a></li>
+<li><a href="#json">JSON</a></li>
+<li><a href="#learning-reference-and-tutorials">&#x5B66;&#x4E60;&#x3001;&#x53C2;&#x8003;&#x548C;&#x6307;&#x5357;</a><ul>
+<li><a href="#online">&#x5728;&#x7EBF;&#x8D44;&#x6E90;</a><ul>
+<li><a href="#reference">&#x53C2;&#x8003;</a></li>
+<li><a href="#beginner">&#x521D;&#x7EA7;</a></li>
+<li><a href="#intermediate">&#x4E2D;&#x7EA7;</a></li>
+<li><a href="#advanced">&#x9AD8;&#x7EA7;</a></li>
+<li><a href="#self-study-courses">&#x81EA;&#x5B66;&#x8D44;&#x6E90;</a></li>
+</ul>
+</li>
+<li><a href="#physical">&#x5B9E;&#x4F53;&#x4E66;</a><ul>
+<li><a href="#reference-1">&#x53C2;&#x8003;</a></li>
+<li><a href="#beginner-1">&#x521D;&#x7EA7;</a></li>
+<li><a href="#intermediate-1">&#x4E2D;&#x7EA7;</a></li>
+<li><a href="#advanced-1">&#x9AD8;&#x7EA7;</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#multimedia">&#x591A;&#x5A92;&#x4F53;</a></li>
+<li><a href="#networking-and-internet">&#x7F51;&#x7EDC;&#x7F16;&#x7A0B;</a><ul>
+<li><a href="#web-frameworks">Web &#x6846;&#x67B6;</a></li>
+</ul>
+</li>
+<li><a href="#numerical">&#x6570;&#x503C;&#x8BA1;&#x7B97;</a></li>
+<li><a href="#parallel-programming">&#x5E76;&#x884C;&#x7F16;&#x7A0B;</a></li>
+<li><a href="#regex">&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</a></li>
+<li><a href="#serialization">&#x5E8F;&#x5217;&#x5316;</a></li>
+<li><a href="#source-code-collections">&#x6E90;&#x7801;&#x96C6;&#x9526;</a></li>
+<li><a href="#standard-libraries">&#x6807;&#x51C6;&#x5E93;</a></li>
+<li><a href="#string-manipulation">&#x5B57;&#x7B26;&#x4E32;&#x5904;&#x7406;</a></li>
+<li><a href="#testing">&#x6D4B;&#x8BD5;&#x5DE5;&#x5177;</a></li>
+<li><a href="#text-editor-extensions">&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#x6269;&#x5C55;</a><ul>
+<li><a href="#emacs">Emacs</a></li>
+<li><a href="#vim">Vim</a></li>
+</ul>
+</li>
+<li><a href="#tools">&#x5DE5;&#x5177;</a></li>
+<li><a href="#utilities">&#x5176;&#x4ED6;&#x5DE5;&#x5177;</a></li>
+<li><a href="#xml">XML</a></li>
+<li><a href="#resources-2">&#x5176;&#x4ED6;&#x8D44;&#x6E90;</a><ul>
+<li><a href="#influential-books">&#x6709;&#x5F71;&#x54CD;&#x529B;&#x7684;&#x4E66;</a></li>
+<li><a href="#websites-blogs">&#x77E5;&#x540D;&#x7F51;&#x7AD9;/&#x535A;&#x5BA2;</a></li>
+<li><a href="#weibo-weixin">&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;</a></li>
+</ul>
+</li>
+</ul>
+<h2 id="build-systems"><a name="build-systems" class="anchor-navigation-ex-anchor" href="#build-systems"><i class="fa fa-link" aria-hidden="true"></i></a>1.2. &#x6784;&#x5EFA;&#x7CFB;&#x7EDF;</h2>
+
+<p>&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E9B; C &#x9879;&#x76EE;&#x7684;&#x81EA;&#x52A8;&#x5316;&#x6784;&#x5EFA;&#x548C;&#x6D4B;&#x8BD5;&#x5DE5;&#x5177;&#x3002;</p>
+<ul>
+<li>aimake&#xFF1A;&#x4E00;&#x4E2A;&#x88AB;&#x8BBE;&#x8BA1;&#x6765;&#x907F;&#x514D;&#x590D;&#x6742;&#x914D;&#x7F6E;&#x7684;&#x6784;&#x5EFA;&#x5DE5;&#x5177;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://nethack4.org/projects/aimake/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Autoconf&#xFF1A;&#x4E00;&#x4E2A;&#x53EF;&#x6269;&#x5C55;&#x7684; M4 &#x5B8F;&#x6307;&#x4EE4;&#x5305;&#xFF0C;&#x63D0;&#x4F9B;&#x547D;&#x4EE4;&#x884C;&#x811A;&#x672C;&#x6765;&#x81EA;&#x52A8;&#x914D;&#x7F6E;&#x8F6F;&#x4EF6;&#x6E90;&#x7801;&#x5305;&#xFF0C;&#x662F; Autotools &#x7684;&#x4E00;&#x90E8;&#x5206;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://www.gnu.org/software/autoconf/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Automake&#xFF1A;&#x4E00;&#x4E2A;&#x81EA;&#x52A8;&#x751F;&#x6210;&#x7B26;&#x5408; GNU &#x4EE3;&#x7801;&#x6807;&#x51C6;&#x7684; Makefile.in &#x6587;&#x4EF6;&#x7684;&#x5DE5;&#x5177;&#x3002;&#x9700;&#x8981;&#x4E0E; Autoconf &#x914D;&#x5408;&#x4F7F;&#x7528;&#xFF0C;&#x5B83;&#x4E5F;&#x662F; Autotools &#x7684;&#x4E00;&#x90E8;&#x5206;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://www.gnu.org/software/automake/automake.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Jam&#xFF1A;&#x4E00;&#x4E2A;&#x6784;&#x5EFA;&#x7CFB;&#x7EDF;&#xFF0C;&#x5B83;&#x88AB;&#x8BBE;&#x8BA1;&#x7684;&#x6BD4;make&#x66F4;&#x52A0;&#x6613;&#x7528;&#x3002;&#x9690;&#x5F0F;&#x5730;&#x7406;&#x89E3; C &#x7684;&#x6784;&#x5EFA;&#x89C4;&#x5219;&#x3002;<a href="https://en.wikipedia.org/wiki/Perforce_Jam#License" target="_blank">Jam License</a>&#x3002;<a href="https://www.perforce.com/resources/documentation/jam" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Libtool&#xFF1A;&#x4E00;&#x4E2A;&#x901A;&#x7528;&#x5E93;&#x652F;&#x6301;&#x811A;&#x672C;&#xFF0C;&#x662F; Autotools &#x7684;&#x4E00;&#x90E8;&#x5206;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/libtool/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Meson&#xFF1A;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x5FEB;&#xFF0C;&#x7528;&#x6237;&#x53CB;&#x597D;&#x7684;&#x6784;&#x5EFA;&#x7CFB;&#x7EDF;&#xFF0C;&#x57FA;&#x4E8E; Ninja&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="http://mesonbuild.com/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="compilers"><a name="compilers" class="anchor-navigation-ex-anchor" href="#compilers"><i class="fa fa-link" aria-hidden="true"></i></a>1.3. &#x7F16;&#x8BD1;&#x5668;</h2>
+
+<ul>
+<li>Clang&#xFF1A;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E; LLVM &#x7684; C &#x7684;&#x7F16;&#x8BD1;&#x5668;&#xFF0C;&#x652F;&#x6301; C11 &#x6807;&#x51C6;&#x3002;<a href="http://directory.fsf.org/wiki/License:IllinoisNCSA" target="_blank">NCSA</a>&#x3002;<a href="http://clang.llvm.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>CompCert&#xFF1A;&#x4E00;&#x4E2A;&#x7ECF;&#x8FC7;&#x5145;&#x5206;&#x9A8C;&#x8BC1;&#x7684; C &#x7F16;&#x8BD1;&#x5668;&#x3002;&#x652F;&#x6301;&#x51E0;&#x4E4E;&#x6240;&#x6709;&#x7684; C89 &#x6807;&#x51C6;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://github.com/AbsInt/CompCert" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GCC&#xFF1A;&#x5728;&#x5B83;&#x7684;&#x7F16;&#x8BD1;&#x5668;&#x96C6;&#x5408;&#x4E2D;&#x63D0;&#x4F9B;&#x4E86; C &#x7F16;&#x8BD1;&#x5668;&#x3002;&#x652F;&#x6301; C11 &#x548C; OpenMP &#x7684;&#x6807;&#x51C6;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gcc.gnu.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>PCC&#xFF1A;&#x4E00;&#x4E2A;&#x503C;&#x5F97;&#x5C0A;&#x656C;&#x7684; C &#x7F16;&#x8BD1;&#x5668;&#xFF0C;&#x652F;&#x6301; C99 &#x6807;&#x51C6;&#x3002;<a href="http://pcc.ludd.ltu.se/licenses/" target="_blank">Various licenses</a>&#xFF0C;&#x5B8C;&#x5168;&#x514D;&#x8D39;&#x3002;<a href="http://pcc.ludd.ltu.se/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>TCC&#xFF1A;&#x4E00;&#x4E2A;&#x8FF7;&#x4F60;&#xFF0C;&#x901F;&#x5EA6;&#x5FEB;&#x7684; C &#x7F16;&#x8BD1;&#x5668;&#xFF0C;&#x652F;&#x6301; C99&#xFF08;&#x9664;&#x4E86;&#x590D;&#x6742;&#x7684;&#x7C7B;&#x578B;&#xFF09;&#x3002; <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">LGPL2.1</a>&#x3002;<a href="http://bellard.org/tcc/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="crypto"><a name="crypto" class="anchor-navigation-ex-anchor" href="#crypto"><i class="fa fa-link" aria-hidden="true"></i></a>1.4. &#x52A0;&#x5BC6;</h2>
+
+<ul>
+<li>GnuTLS&#xFF1A;&#x4E00;&#x4E2A;&#x5B89;&#x5168;&#x901A;&#x4FE1;&#x5E93;&#xFF0C;&#x5B9E;&#x73B0;&#x4E86; SSL&#xFF0C;TLS &#x548C; DTLS&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://www.gnutls.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libgcrypt&#xFF1A;&#x4E00;&#x4E2A;&#x901A;&#x7528;&#x7684;&#x5BC6;&#x7801;&#x5E93;&#xFF0C;&#x652F;&#x6301;&#x591A;&#x79CD;&#x52A0;&#x5BC6;&#x65B9;&#x6CD5;&#x3002; <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a> &#xFF08;&#x4EE3;&#x7801;&#xFF09;&#xFF0C;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#xFF08;&#x8BF4;&#x660E;&#x4E66;&#x548C;&#x5DE5;&#x5177;&#xFF09;&#x3002;<a href="https://www.gnu.org/software/libgcrypt/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>OpenSSL&#xFF1A;&#x4E00;&#x4E2A; SSL &#x548C; TLS &#x534F;&#x8BAE;&#x7684;&#x5B9E;&#x73B0;&#xFF0C;&#x8FD8;&#x5305;&#x62EC;&#x4E00;&#x4E2A;&#x52A0;&#x5BC6;&#x5E93;&#x3002;<a href="https://www.openssl.org/source/license.html" target="_blank">Dual Licensed under the OpenSSL License and the SSLeay License</a>&#x3002;<a href="https://www.openssl.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libsodium&#xFF1A;&#x4E00;&#x4E2A;&#x73B0;&#x4EE3;&#xFF0C;&#x6613;&#x7528;&#x7684;&#x52A0;&#x5BC6;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/jedisct1/libsodium" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libtomcrypt&#xFF1A;&#x4E00;&#x4E2A;&#x76F8;&#x5F53;&#x5168;&#x9762;&#xFF0C;&#x6A21;&#x5757;&#x5316;&#x548C;&#x53EF;&#x79FB;&#x690D;&#x7684;&#x5DE5;&#x5177;&#x96C6;&#x3002;&#x516C;&#x5F00;&#x9886;&#x57DF;&#x3002;<a href="https://github.com/libtom/libtomcrypt" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>mbed TLS&#xFF1A;&#x4E00;&#x4E2A; C &#x5B9E;&#x73B0;&#x7684;&#x52A0;&#x5BC6;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="https://tls.mbed.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="database"><a name="database" class="anchor-navigation-ex-anchor" href="#database"><i class="fa fa-link" aria-hidden="true"></i></a>1.5. &#x6570;&#x636E;&#x5E93;</h2>
+
+<p>&#x4E0B;&#x9762;&#x5217;&#x51FA;&#x4E86;&#x57FA;&#x4E8E; C API &#x7684;&#x6570;&#x636E;&#x5E93;&#x548C;&#x6570;&#x636E;&#x5B58;&#x50A8;</p>
+<ul>
+<li>BerkeleyDB&#xFF1A;&#x4E00;&#x4E2A;&#x9AD8;&#x6027;&#x80FD;&#x7684;&#x5D4C;&#x5165;&#x5F0F;&#x952E;&#x503C;&#x5BF9;&#x6570;&#x636E;&#x5E93;&#x3002;<a href="https://gnu.org/licenses/agpl.html" target="_blank">GNU AGPLv3</a>&#x3002;<a href="http://www.oracle.com/us/products/database/berkeley-db/overview/index.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Hiredis&#xFF1A;&#x4E00;&#x4E2A;&#x6781;&#x7B80;&#x7684; Redis &#x5BA2;&#x6237;&#x7AEF;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="https://github.com/redis/hiredis" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>LMDB&#xFF1A;&#x4E00;&#x4E2A;&#x6781;&#x5FEB;&#xFF0C;&#x6781;&#x7B80;&#x7684;&#x5D4C;&#x5165;&#x5F0F;&#x952E;&#x503C;&#x5BF9;&#x6570;&#x636E;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#x3002;<a href="http://directory.fsf.org/wiki/License:OpenLDAPv2.7" target="_blank">newOpenLDAP</a>&#x3002;<a href="http://symas.com/mdb/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>MariaDB&#xFF1A;&#x4E00;&#x4E2A;&#x5F3A;&#x58EE;&#xFF0C;&#x53EF;&#x6269;&#x5C55;&#x548C;&#x53EF;&#x9760;&#x7684; SQL &#x670D;&#x52A1;&#x5668;&#xFF0C;&#x8BBE;&#x8BA1;&#x6765;&#x4F5C;&#x4E3A; MySQL &#x7684;&#x66FF;&#x4EE3;&#x54C1;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="https://mariadb.com/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>mongo-c-driver&#xFF1A;&#x4E00;&#x4E2A;&#x9AD8;&#x6027;&#x80FD;&#x7684; MongoDB &#x5BA2;&#x6237;&#x7AEF;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>.<a href="https://github.com/mongodb/mongo-c-driver" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>PostgreSQL&#xFF1A;&#x4E00;&#x4E2A;&#x5F3A;&#x5927;&#x7684;&#x5BF9;&#x8C61;&#x5173;&#x7CFB;&#x6570;&#x636E;&#x5E93;&#x7CFB;&#x7EDF;&#x3002;<a href="http://opensource.org/licenses/postgresql" target="_blank">PostgreSQL licence</a>&#x3002;<a href="http://www.postgresql.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>recutils&#xFF1A;&#x4E00;&#x4E2A;&#x5DE5;&#x5177;&#x548C; C &#x5E93;&#x7684;&#x96C6;&#x5408;&#xFF0C;&#x7528;&#x4E8E;&#x8BBF;&#x95EE;&#x53EF;&#x7F16;&#x8F91;&#xFF0C;&#x7EAF;&#x6587;&#x672C;&#x7684;&#x540D;&#x4E3A; recfiles &#x7684;&#x6570;&#x636E;&#x5E93;&#x6587;&#x4EF6;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://www.gnu.org/software/recutils/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Redis&#xFF1A;&#x4E00;&#x4E2A;&#x5148;&#x8FDB;&#x7684;&#x952E;&#x503C;&#x5BF9;&#x5B58;&#x50A8;&#x7CFB;&#x7EDF;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="http://redis.io/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>sophia&#xFF1A;&#x4E00;&#x4E2A;&#x73B0;&#x4EE3;&#xFF0C;&#x53EF;&#x5D4C;&#x5165;&#x7684;&#x952E;&#x503C;&#x5BF9;&#x6570;&#x636E;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://github.com/pmwkaa/sophia" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>SQLite&#xFF1A;&#x4E00;&#x4E2A;&#x81EA;&#x5305;&#x542B;&#xFF0C;&#x65E0;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x96F6;&#x914D;&#x7F6E;&#xFF0C;&#x652F;&#x6301;&#x4E8B;&#x52A1;&#x7684; SQL &#x6570;&#x636E;&#x5E93;&#x5F15;&#x64CE;&#xFF0C;&#x5305;&#x62EC; C &#x63A5;&#x53E3;&#x3002;&#x516C;&#x5F00;&#x9886;&#x57DF;&#x3002;<a href="http://www.sqlite.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>UnQLite&#xFF1A;&#x4E00;&#x4E2A;&#x81EA;&#x5305;&#x542B;&#xFF0C;&#x65E0;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x96F6;&#x914D;&#x7F6E;&#xFF0C;&#x652F;&#x6301;&#x4E8B;&#x52A1;&#x7684; NoSQL &#x6570;&#x636E;&#x5E93;&#x5F15;&#x64CE;&#xFF0C;&#x5305;&#x62EC; C &#x63A5;&#x53E3;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="http://unqlite.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="documentation-generation"><a name="documentation-generation" class="anchor-navigation-ex-anchor" href="#documentation-generation"><i class="fa fa-link" aria-hidden="true"></i></a>1.6. &#x6587;&#x6863;&#x751F;&#x6210;</h2>
+
+<ul>
+<li>Cxref&#xFF1A;&#x751F;&#x6210; C &#x7A0B;&#x5E8F;&#x7684;&#x6587;&#x6863;&#xFF0C;&#x652F;&#x6301; LaTeX&#xFF0C;HTML&#xFF0C; RTF &#x6216;&#x8005; SGML &#x7684;&#x683C;&#x5F0F;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GPL2.1</a><a href="http://www.gedanken.org.uk/software/cxref/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>DocOnce&#xFF1A;&#x4E00;&#x79CD;&#x6734;&#x7D20;&#x7684;&#x6807;&#x7B7E;&#x6807;&#x8BB0;&#x8BED;&#x8A00;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x751F;&#x6210;&#x591A;&#x79CD;&#x683C;&#x5F0F;&#x7684;&#x6587;&#x6863;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">BSD-3clause</a>.<a href="https://hplgit.github.io/doconce/doc/web/index.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Doxygen&#xFF1A;&#x4E00;&#x4E2A;&#x4E8B;&#x5B9E;&#x4E0A;&#x7684;&#x6807;&#x51C6;&#x5DE5;&#x5177;&#xFF0C;&#x7528;&#x4E8E;&#x4ECE;&#x6CE8;&#x91CA;&#x7684;&#x4EE3;&#x7801;&#x4E2D;&#x751F;&#x6210; C &#x6587;&#x6863;&#x3002;&#x80FD;&#x591F;&#x751F;&#x6210;&#x591A;&#x79CD;&#x683C;&#x5F0F;&#x7684;&#x6587;&#x6863;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://www.stack.nl/~dimitri/doxygen/index.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GTK-Doc&#xFF1A;&#x4E00;&#x4E2A;&#x4ECE;&#x6CE8;&#x91CA;&#x7684;&#x4EE3;&#x7801;&#x4E2D;&#x751F;&#x6210; C &#x6587;&#x6863;&#x7684;&#x5DE5;&#x5177;&#xFF0C;&#x652F;&#x6301; Autotools <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU GPL2.1</a>&#xFF08;&#x4EE3;&#x7801;&#xFF09;, <a href="https://www.gnu.org/licenses/old-licenses/fdl-1.1.html" target="_blank">GNU FDL1.1</a>&#x3002;<a href="http://www.gtk.org/gtk-doc/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="editors"><a name="editors" class="anchor-navigation-ex-anchor" href="#editors"><i class="fa fa-link" aria-hidden="true"></i></a>1.7. &#x7F16;&#x8F91;&#x5668;</h2>
+
+<p>&#x8FD9;&#x4E9B;&#x662F;&#x7279;&#x522B;&#x7CBE;&#x81F4;&#xFF0C;IDE &#x7C7B;&#x578B;&#x7684;&#x7F16;&#x8F91;&#x5668;&#x3002;&#x5982;&#x679C;&#x4F60;&#x60F3;&#x8981;&#x4E00;&#x4E2A;&#x7A0B;&#x5E8F;&#x5458;&#x7684;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#xFF0C;&#x770B;&#x522B;&#x7684;&#x5730;&#x65B9;&#x3002;&#x6B64;&#x5916;&#xFF0C;&#x4E0D;&#x7BA1;&#x4F60;&#x9009;&#x62E9;&#x54EA;&#x4E00;&#x6B3E;&#x7F16;&#x8F91;&#x5668;&#xFF0C;&#x5B83;&#x90FD;&#x652F;&#x6301; C&#x3002;</p>
+<ul>
+<li>Anjuta DevStudio&#xFF1A;GNOME IDE&#x3002; <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://anjuta.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Code::Blocks&#xFF1A;&#x4E00;&#x4E2A;&#x53EF;&#x6269;&#x5C55;&#xFF0C;&#x53EF;&#x914D;&#x7F6E;&#x7684; IDE&#xFF0C;&#x652F;&#x6301; C&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#x3002;<a href="http://www.codeblocks.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>CodeLite&#xFF1A;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;&#x7684; IDE&#x3002; <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://www.codelite.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Eclipse&#xFF1A;&#x4E00;&#x4E2A;&#x7528; Java &#x5199;&#x6210;&#x7684; IDE&#x3002; <a href="http://directory.fsf.org/wiki/License:EPLv1.0" target="_blank">EPL</a>&#x3002;<a href="http://www.eclipse.org/ide/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Geany&#xFF1A;&#x4E00;&#x4E2A;&#x5F88;&#x5C0F;&#x5F88;&#x5FEB;&#x7684; IDE&#x3002; <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x53CA;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://www.geany.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>KDevelop&#xFF1A;KDE IDE. <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="https://www.kdevelop.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="environments"><a name="environments" class="anchor-navigation-ex-anchor" href="#environments"><i class="fa fa-link" aria-hidden="true"></i></a>1.8. &#x73AF;&#x5883;</h2>
+
+<p>&#x4E0B;&#x9762;&#x5217;&#x51FA;&#x4E86;&#x88AB;&#x8BBE;&#x8BA1;&#x6765;&#x5F15;&#x9886; Windows &#x8FDB;&#x5165;&#x652F;&#x6301; C &#x7684; 21 &#x4E16;&#x7EAA;&#x7684;&#x6280;&#x672F;&#x3002;</p>
+<ul>
+<li>Cygwin&#xFF1A;&#x88AB;&#x8BBE;&#x8BA1;&#x7528;&#x4E8E;&#x5728; Windows &#x4E0B;&#x6A21;&#x62DF; POSIX &#x517C;&#x5BB9;&#x73AF;&#x5883;&#x3002;<a href="https://cygwin.com/licensing.html" target="_blank">Various licenses, all free</a>&#x3002;<a href="https://cygwin.com/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>MinGW-w64&#xFF1A;&#x4E00;&#x4E2A; Windows &#x4E0B;&#x6781;&#x7B80;&#x7684; C &#x5F00;&#x53D1;&#x73AF;&#x5883;&#xFF0C;&#x652F;&#x6301; 64 &#x4F4D;&#x3002;<a href="http://mingw.org/license" target="_blank">Various licenses, all free</a>&#x3002;<a href="http://mingw-w64.yaxm.org/doku.php/start" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="frameworks"><a name="frameworks" class="anchor-navigation-ex-anchor" href="#frameworks"><i class="fa fa-link" aria-hidden="true"></i></a>1.9. &#x6846;&#x67B6;</h2>
+
+<p>&#x8FD9;&#x4E00;&#x8282;&#x5305;&#x62EC;&#x63D0;&#x4F9B;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x5927;&#x578B;&#x5E93;&#x548C;&#x4F60;&#x6240;&#x671F;&#x5F85;&#x201C;&#x73B0;&#x4EE3;&#x201D;&#x7684;&#x6807;&#x51C6;&#x5E93;&#x3002;</p>
+<ul>
+<li>APR&#xFF1A;Apache Portable Runtime&#xFF1B;&#x53E6;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x5B9E;&#x7528;&#x51FD;&#x6570;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="http://apr.apache.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>C Algorithms&#xFF1A;&#x4E00;&#x4E2A;&#x5E38;&#x7528;&#x7B97;&#x6CD5;&#x548C;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x96C6;&#x5408;&#x3002;<a href="https://github.com/fragglet/c-algorithms" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>CPL&#xFF1A;The Common Pipeline Library&#xFF1B;&#x4E00;&#x7CFB;&#x5217;&#x8BE6;&#x5C3D;&#xFF0C;&#x9AD8;&#x6548;&#x548C;&#x5F3A;&#x58EE;&#x7684;&#x8F6F;&#x4EF6;&#x5DE5;&#x5177;&#x5305;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://www.eso.org/sci/software/cpl/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>EFL&#xFF1A;&#x4E00;&#x4E2A;&#x5927;&#x578B;&#x5B9E;&#x7528;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x548C;&#x51FD;&#x6570;&#x7684;&#x7684;&#x96C6;&#x5408;&#x3002;&#x591A;&#x79CD;&#x8BB8;&#x53EF;&#x8BC1;&#xFF0C;&#x5B8C;&#x5168;&#x514D;&#x8D39;&#x3002;<a href="https://www.enlightenment.org/p.php?p=about/efl" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GLib&#xFF1A;&#x4E00;&#x4E2A;&#x4FBF;&#x643A;&#xFF0C;&#x9AD8;&#x6548;&#x548C;&#x5F3A;&#x5927;&#x7684;&#x5B9E;&#x7528;&#x51FD;&#x6570;&#x548C;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#x3002;<a href="https://wiki.gnome.org/Projects/GLib" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GIO&#xFF1A;&#x4E00;&#x4E2A;&#x73B0;&#x4EE3;&#x548C;&#x6613;&#x7528;&#x7684; VFS API&#x3002;[GNU LGPL2.1]&#x3002;<a href="https://developer.gnome.org/gio/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GObject&#xFF1A;&#x4E00;&#x4E2A; C &#x7684;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7CFB;&#x7EDF;&#x548C;&#x5BF9;&#x8C61;&#x6A21;&#x578B;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#x3002;<a href="https://developer.gnome.org/gobject/stable/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libnih&#xFF1A;&#x4E00;&#x4E2A;&#x8F7B;&#x91CF;&#x7EA7;&#x7684; C &#x51FD;&#x6570;&#x548C;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="https://github.com/keybuk/libnih" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libU&#xFF1A;&#x4E00;&#x4E2A;&#x63D0;&#x4F9B;&#x57FA;&#x672C;&#x5B9E;&#x7528;&#x51FD;&#x6570;&#x7684;&#x8FF7;&#x4F60;&#x5E93;&#xFF0C;&#x5305;&#x62EC;&#x5185;&#x5B58;&#x5206;&#x914D;&#xFF0C;&#x5B57;&#x7B26;&#x4E32;&#x5904;&#x7406;&#x548C;&#x65E5;&#x5FD7;&#x529F;&#x80FD;&#x3002;<a href="http://www.koanlogic.com/libu/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>PBL&#xFF1A;&#x4E00;&#x4E2A;&#x5305;&#x62EC;&#x5B9E;&#x7528;&#x51FD;&#x6570;&#xFF0C;&#x7279;&#x8272;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7B49;&#x7684;&#x5927;&#x578B;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#x53CA;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#xFF08;&#x5E93;&#xFF09;&#xFF0C;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x53CA;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#xFF08;&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;&#xFF09;&#x3002;<a href="http://www.mission-base.com/peter/source/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>qlibc&#xFF1A;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x4E14;&#x5F3A;&#x5927;&#x7684; C &#x5E93;&#xFF0C;&#x5F53;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x5C0F;&#x4E14;&#x8F7B;&#x7684;&#x5E93;&#x65F6;&#xFF0C;&#x53EF;&#x4F5C;&#x4E3A; Glib &#x7684;&#x66FF;&#x4EE3;&#x54C1;&#x3002;<a href="https://github.com/wolkykim/qlibc/blob/master/LICENSE" target="_blank">qLib license</a> (&#x7C7B;&#x4F3C;&#x4E8E; <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>)&#x3002;<a href="https://github.com/wolkykim/qlibc" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>stb&#xFF1A;&#x4E00;&#x7CFB;&#x5217;&#x5355;&#x6587;&#x4EF6; C &#x5E93;&#x3002;&#x516C;&#x5171;&#x9886;&#x57DF;&#x3002;<a href="https://github.com/nothings/stb" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/libcstl/" target="_blank">libcstl</a>&#xFF1A;&#x6807;&#x51C6;C&#x8BED;&#x8A00;&#x901A;&#x7528;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x548C;&#x5E38;&#x7528;&#x7B97;&#x6CD5;&#x5E93;&#x3002;<a href="http://libcstl.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="game-programming"><a name="game-programming" class="anchor-navigation-ex-anchor" href="#game-programming"><i class="fa fa-link" aria-hidden="true"></i></a>1.10. &#x6E38;&#x620F;&#x7F16;&#x7A0B;</h2>
+
+<h3 id="engines"><a name="engines" class="anchor-navigation-ex-anchor" href="#engines"><i class="fa fa-link" aria-hidden="true"></i></a>1.10.1. &#x5F15;&#x64CE;</h3>
+
+<p>&#x8FD9;&#x4E9B;&#x4F5C;&#x4E3A; C &#x6E38;&#x620F;&#x7F16;&#x7A0B;&#x4EE3;&#x7801;&#x7684;&#x4F8B;&#x5B50;&#x3002;</p>
+<ul>
+<li><a href="http://hao.jobbole.com/corange/" target="_blank">Corange</a>&#xFF1A;&#x4E00;&#x4E2A;&#x7EAF; C &#x7684;&#x6E38;&#x620F;&#x5F15;&#x64CE;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://github.com/orangeduck/Corange" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Darkplaces&#xFF1A;&#x4E00;&#x4E2A; Quake2 &#x5F15;&#x64CE;&#x7684;&#x4FEE;&#x6539;&#x7248;&#x672C;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="https://icculus.org/twilight/darkplaces/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>ioquake3&#xFF1A;Quake3 &#x5F15;&#x64CE;&#xFF0C;&#x7EC8;&#x4E8E;&#x514D;&#x8D39;&#x5566;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="https://github.com/ioquake/ioq3" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Orx&#xFF1A;&#x4E00;&#x4E2A;&#x4FBF;&#x643A;&#xFF0C;&#x8F7B;&#x91CF;&#x7EA7;&#xFF0C;&#x63D2;&#x4EF6;&#x5316;&#xFF0C;&#x6570;&#x636E;&#x9A71;&#x52A8;&#xFF0C;&#x9762;&#x5411; 2D &#x7684;&#x6E38;&#x620F;&#x5F15;&#x64CE;&#x3002;<a href="http://directory.fsf.org/wiki/License:Zlib" target="_blank">zlib</a>&#x3002;<a href="https://bitbucket.org/orx/orx" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/quake2/" target="_blank">Quake2</a>&#xFF1A;Quake2 &#x5F15;&#x64CE;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="https://github.com/id-Software/Quake-2" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Spearmint&#xFF1A;&#x4E00;&#x4E2A;&#x4E3A; FPS &#x6E38;&#x620F;&#x8BBE;&#x8BA1;&#x7684;&#x5F15;&#x64CE;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#x53CA;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://github.com/zturtleman/spearmint" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h3 id="resources"><a name="resources" class="anchor-navigation-ex-anchor" href="#resources"><i class="fa fa-link" aria-hidden="true"></i></a>1.10.2. &#x8D44;&#x6E90;</h3>
+
+<p>&#x8FD9;&#x4E9B;&#x662F;&#x7B5B;&#x9009;&#x8FC7;&#x7684;&#xFF0C;&#x5BF9;&#x6E38;&#x620F;&#x7F16;&#x7A0B;&#x6709;&#x7528;&#x7684;&#x5E93;&#x3002;</p>
+<ul>
+<li>Allegro&#xFF1A;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;&#xFF0C;&#x89C6;&#x9891;&#x6E38;&#x620F;&#x5F00;&#x53D1;&#x548C;&#x591A;&#x5A92;&#x4F53;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Zlib" target="_blank">zlib</a>&#x3002;<a href="http://liballeg.org" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Chipmunk2D&#xFF1A;&#x4E00;&#x4E2A;&#x5FEB;&#x4E14;&#x8F7B;&#x91CF;&#x7EA7;&#x7684; 2D &#x6E38;&#x620F;&#x7269;&#x7406;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/slembcke/Chipmunk2D" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>CSFML&#xFF1A;&#x4E00;&#x4E2A;&#x7528; C &#x5C01;&#x88C5;&#x7684; <a href="http://www.sfml-dev.org/index.php" target="_blank">SFML</a>&#x3002;<a href="http://directory.fsf.org/wiki/License:Zlib" target="_blank">zlib</a>&#x3002;<a href="http://www.sfml-dev.org/download/csfml/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>FreeGLUT&#xFF1A;&#x4E00;&#x4E2A;&#x66FF;&#x4EE3;&#x6027;&#x7684; OpenGL &#x5B9E;&#x7528;&#x5DE5;&#x5177;&#x5305;&#x3002;&#x5141;&#x8BB8;&#x7528; OpenGL &#x4E0A;&#x4E0B;&#x6587;&#x521B;&#x5EFA;&#x548C;&#x7BA1;&#x7406;&#x7A97;&#x53E3;&#x3002;<a href="http://directory.fsf.org/wiki/License:X11" target="_blank">X11</a>&#x3002;<a href="https://github.com/dcnieho/FreeGLUT" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GLFW&#xFF1A;&#x4E00;&#x4E2A;&#x4F7F;&#x7528; OpenGL &#x4E0A;&#x4E0B;&#x6587;&#x521B;&#x5EFA;&#x7A97;&#x53E3;&#x7684;&#x591A;&#x5E73;&#x53F0;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Zlib" target="_blank">zlib</a>&#x3002;<a href="http://www.glfw.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libao&#xFF1A;&#x4E00;&#x4E2A;&#x6709;&#x591A;&#x79CD;&#x8F93;&#x51FA;&#x7684;&#x8DE8;&#x5E73;&#x53F0;&#x97F3;&#x9891;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x53CA;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://github.com/timonwong/libao" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>RetroArch&#xFF1A;<a href="http://www.libretro.com/" target="_blank">libretro</a> &#x7684;&#x53C2;&#x8003;&#x524D;&#x7AEF;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#x3002;<a href="https://github.com/libretro/RetroArch" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>SDL&#xFF1A;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;&#x5E93;&#xFF0C;&#x901A;&#x8FC7; OpenGL &#x63D0;&#x4F9B;&#x97F3;&#x9891;&#xFF0C;&#x952E;&#x76D8;&#xFF0C;&#x9F20;&#x6807;&#xFF0C;&#x64CD;&#x7EB5;&#x6746;&#x548C;&#x56FE;&#x5F62;&#x786C;&#x4EF6;&#x7684;&#x5E95;&#x5C42;&#x8BBF;&#x95EE;&#x3002;<a href="http://directory.fsf.org/wiki/License:Zlib" target="_blank">zlib</a>&#x3002;<a href="https://www.libsdl.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>SDL2&#xFF1A;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;&#x5E93;&#xFF0C;&#x901A;&#x8FC7; OpenGL &#x63D0;&#x4F9B;&#x97F3;&#x9891;&#xFF0C;&#x952E;&#x76D8;&#xFF0C;&#x9F20;&#x6807;&#xFF0C;&#x64CD;&#x7EB5;&#x6746;&#x548C;&#x56FE;&#x5F62;&#x786C;&#x4EF6;&#x7684;&#x5E95;&#x5C42;&#x8BBF;&#x95EE;&#x3002;&#x8FD9;&#x662F;&#x6700;&#x65B0;&#x7248;&#x672C;&#x3002;<a href="http://directory.fsf.org/wiki/License:Zlib" target="_blank">zlib</a>&#x3002;<a href="https://www.libsdl.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="generic-programming"><a name="generic-programming" class="anchor-navigation-ex-anchor" href="#generic-programming"><i class="fa fa-link" aria-hidden="true"></i></a>1.11. &#x901A;&#x7528;&#x7F16;&#x7A0B;</h2>
+
+<ul>
+<li>klib&#xFF1A;&#x5C0F;&#x4E14;&#x8F7B;&#x91CF;&#x7EA7;&#x7684;&#x5E38;&#x7528;&#x7B97;&#x6CD5;&#x548C;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/attractivechaos/klib" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="graphics"><a name="graphics" class="anchor-navigation-ex-anchor" href="#graphics"><i class="fa fa-link" aria-hidden="true"></i></a>1.12. &#x56FE;&#x5F62;</h2>
+
+<ul>
+<li>Cairo&#xFF1A;&#x4E00;&#x4E2A; 2D &#x56FE;&#x50CF;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a> &#x6216;&#x8005; <a href="https://directory.fsf.org/wiki/License:MPLv1.1" target="_blank">MPLv1.1</a>&#x3002;<a href="http://cairographics.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Cogl&#xFF1A;&#x4E00;&#x4E2A; GPU &#x56FE;&#x50CF;&#x548C;&#x5B9E;&#x7528; API&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#xFF08;&#x4F9D;&#x8D56;&#x4F7F;&#x7528; <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a> &#x8BB8;&#x53EF;&#xFF0C;&#x5E93;&#x4F7F;&#x7528; <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">LGPLv2.1</a> &#x8BB8;&#x53EF;&#xFF09;&#x3002;<a href="https://github.com/rib/cogl-web/wiki" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Clutter&#xFF1A;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E; OpenGL &#x7684; UI &#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#x3002;<a href="https://blogs.gnome.org/clutter/get-it/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>heman&#xFF1A;&#x4E00;&#x4E2A;&#x8FF7;&#x4F60;&#x56FE;&#x50CF;&#x5B9E;&#x7528;&#x5DE5;&#x5177;&#x5E93;&#xFF0C;&#x5904;&#x7406;&#x9AD8;&#x5EA6;&#x56FE;&#xFF0C;&#x6CD5;&#x7EBF;&#x56FE;&#xFF0C;&#x8DDD;&#x79BB;&#x573A;&#x7B49;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/prideout/heman" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libcaca&#xFF1A;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;&#x7EC8;&#x7AEF;&#x63A5;&#x53E3;&#x7684; ASCII &#x6E32;&#x67D3;&#x5668;&#x3002;<a href="http://www.wtfpl.net/txt/copying/" target="_blank">WTFPLv2</a>&#x3002;<a href="https://github.com/cacalabs/libcaca" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libimagequant&#xFF1A;&#x5C0F;&#x4E14;&#x8F7B;&#x91CF;&#x7EA7;&#x7684;&#x5E93;&#xFF0C;&#x7528;&#x4E8E;&#x9AD8;&#x8D28;&#x91CF;&#x7684;&#x4ECE; RGBA &#x56FE;&#x50CF;&#x5230; 8 &#x4F4D;&#x50CF;&#x7D20;&#x56FE;&#x7684;&#x8F6C;&#x6362;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://pngquant.org/lib/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libjpeg-turbo&#xFF1A;&#x4E00;&#x4E2A;&#x66F4;&#x5FEB;&#x7684;&#x8BFB;&#x5199; JPEG &#x6587;&#x4EF6;&#x5E93;&#x3002;<a href="http://www.libjpeg-turbo.org/About/License" target="_blank">Various licences</a>&#x3002;<a href="http://libjpeg-turbo.virtualgl.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libpng&#xFF1A;&#x5B98;&#x65B9; PNG &#x53C2;&#x8003;&#x5E93;&#x3002;<a href="http://www.libpng.org/pub/png/src/libpng-LICENSE.txt" target="_blank">libpng license</a>&#x3002;<a href="https://http://www.libpng.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libxmi&#xFF1A;&#x4E00;&#x4E2A;&#x5149;&#x6805;&#x5316; 2D &#x4F4D;&#x56FE;&#x7684;&#x51FD;&#x6570;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/libxmi/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>mozjpeg&#xFF1A;&#x4E00;&#x4E2A;&#x63D0;&#x5347; JPEG &#x56FE;&#x50CF;&#x8D28;&#x91CF;&#x7684;&#x7F16;&#x7801;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="https://github.com/mozilla/mozjpeg" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>OpenGL&#xFF1A;&#x4E00;&#x4E2A;&#x9AD8;&#x6027;&#x80FD;&#x56FE;&#x50CF;&#x7684;&#x5DE5;&#x4E1A;&#x6807;&#x51C6;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x539F;&#x751F; C&#x8BED;&#x8A00; &#x7ED1;&#x5B9A;&#x3002;<a href="http://www.sgi.com/tech/opengl/?/license.html" target="_blank">Various licenses</a>&#x3002;<a href="https://www.opengl.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/craft/" target="_blank">Craft</a>&#xFF1A;&#x4E00;&#x4E2A;&#x5229;&#x7528;OpenGL&#x4F7F;&#x7528;C&#x7F16;&#x5199;&#x7684;&#x7B80;&#x5355;MineCraft&#x7684;&#x514B;&#x9686;&#x3002;<a href="http://www.michaelfogleman.com/craft/" target="_blank">&#x5B98;&#x7F51;</a>&#x3001;<a href="https://github.com/fogleman/Craft" target="_blank">GitHub</a></li>
+</ul>
+<h2 id="gui"><a name="gui" class="anchor-navigation-ex-anchor" href="#gui"><i class="fa fa-link" aria-hidden="true"></i></a>1.13. GUI</h2>
+
+<p>&#x8FD9;&#x4E9B;&#x5177;&#x4F53;&#x6765;&#x8BF4;&#x5C31;&#x662F;<a href="https://en.wikipedia.org/wiki/Widget_toolkit" target="_blank">&#x63A7;&#x4EF6;&#x5DE5;&#x5177;&#x5305;</a></p>
+<ul>
+<li>GTK+&#xFF1A;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x63A7;&#x4EF6;&#x5DE5;&#x5177;&#x5305;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#x3002;<a href="http://www.gtk.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>IUP&#xFF1A;&#x53E6;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x63A7;&#x4EF6;&#x5DE5;&#x5177;&#x5305;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="http://webserver2.tecgraf.puc-rio.br/iup/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Tk&#xFF1A;&#x4E00;&#x4E2A;&#x57FA;&#x672C;&#x63A7;&#x4EF6;&#x5DE5;&#x5177;&#x5305;&#xFF0C;Tcl/Tk &#x7684;&#x4E00;&#x90E8;&#x5206;&#x3002;<a href="http://www.tcl.tk/software/tcltk/license.html" target="_blank">Tcl/Tk License</a>&#x3002;<a href="http://www.tcl.tk/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>XForms Toolkit&#xFF1A;&#x4E00;&#x4E2A;&#x4E3A; XWindow &#x8BBE;&#x8BA1;&#x7684;&#x63A7;&#x4EF6;&#x5DE5;&#x5177;&#x5305;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#x3002;<a href="http://xforms-toolkit.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="json"><a name="json" class="anchor-navigation-ex-anchor" href="#json"><i class="fa fa-link" aria-hidden="true"></i></a>1.14. JSON</h2>
+
+<ul>
+<li>Jansson&#xFF1A;&#x4E00;&#x4E2A;&#x7F16;&#x7801;&#xFF0C;&#x89E3;&#x7801;&#x548C;&#x5904;&#x7406; JSON &#x7684; C &#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="http://www.digip.org/jansson/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>jsmn&#xFF1A;&#x4E00;&#x4E2A;&#x6781;&#x7B80;&#x7684; JSON &#x89E3;&#x6790;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="http://zserge.com/jsmn.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>json-c&#xFF1A;&#x4E00;&#x4E2A;&#x5904;&#x7406; JSON &#x7684;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/json-c/json-c/wiki" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>WJElement&#xFF1A;&#x9AD8;&#x7EA7; JSON &#x5904;&#x7406;&#x5E93;&#xFF0C;&#x652F;&#x6301; JSON Schema&#x3002;&#x4EFB;&#x610F;&#x7248;&#x672C;&#x7684; LGPL&#x3002;<a href="https://github.com/netmail-open/wjelement/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>YAJL&#xFF1A;&#x4E00;&#x4E2A;&#x5F88;&#x5FEB;&#x7684; JSON &#x6D41;&#x89E3;&#x6790; C &#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:ISC" target="_blank">ISC</a>&#x3002;<a href="https://lloyd.github.io/yajl/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="learning-reference-and-tutorials"><a name="learning-reference-and-tutorials" class="anchor-navigation-ex-anchor" href="#learning-reference-and-tutorials"><i class="fa fa-link" aria-hidden="true"></i></a>1.15. &#x5B66;&#x4E60;&#x3001;&#x53C2;&#x8003;&#x548C;&#x6307;&#x5357;</h2>
+
+<p>&#x4E0B;&#x9762;&#x5217;&#x51FA;&#x4E86;&#x5B66;&#x4E60; C &#x7F16;&#x7A0B;&#x7684;&#x8D44;&#x6E90;&#xFF0C;&#x6216;&#x8005;&#x8DDF; C &#x7F16;&#x7A0B;&#x76F8;&#x5173;&#x7684;&#x6709;&#x7528;&#x7684;&#x4E1C;&#x897F;&#x3002;</p>
+<h3 id="&#x5728;&#x7EBF;"><a name="&#x5728;&#x7EBF;" class="anchor-navigation-ex-anchor" href="#&#x5728;&#x7EBF;"><i class="fa fa-link" aria-hidden="true"></i></a>1.15.1. &#x5728;&#x7EBF;</h3>
+<h4 id="&#x53C2;&#x8003;"><a name="&#x53C2;&#x8003;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x8003;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x53C2;&#x8003;</h4>
+<ul>
+<li><a href="https://www.securecoding.cert.org/confluence/display/c/SEI+CERT+C+Coding+Standard" target="_blank">SEI CERT C &#x7F16;&#x7801;&#x6807;&#x51C6;</a></li>
+<li><a href="http://c-faq.com/" target="_blank">C FAQ&#xFF1A;comp.lang.c &#x5E38;&#x89C1;&#x95EE;&#x9898;</a></li>
+<li><a href="http://www.etalabs.net/compare_libcs.html" target="_blank">GNU/Linux &#x4E0B; C/POSIX &#x6807;&#x51C6;&#x5E93;&#x5B9E;&#x73B0;&#x7684;&#x6BD4;&#x8F83;</a></li>
+<li><a href="http://www.open-std.org/JTC1/SC22/WG14/" target="_blank">C11 &#x6807;&#x51C6;&#x8349;&#x6848;</a></li>
+<li><a href="https://www.gnu.org/software/gnu-c-manual/" target="_blank">GNU C &#x53C2;&#x8003;&#x624B;&#x518C;</a></li>
+<li><a href="http://kamalatta.ddnss.de/otherdocs/pikestyle.html" target="_blank">Robert Pike &#x7684; C &#x7B14;&#x8BB0;</a></li>
+</ul>
+<h4 id="&#x521D;&#x7EA7;"><a name="&#x521D;&#x7EA7;" class="anchor-navigation-ex-anchor" href="#&#x521D;&#x7EA7;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x521D;&#x7EA7;</h4>
+<ul>
+<li><a href="http://home.netcom.com/~tjensen/ptr/pointers.htm" target="_blank">&#x6307;&#x9488;&#x6559;&#x7A0B;</a></li>
+<li><a href="http://blog.jobbole.com/25409/" target="_blank">C &#x8BED;&#x8A00;&#x6307;&#x9488; 5 &#x5206;&#x949F;&#x6559;&#x7A0B;</a></li>
+<li><a href="http://blog.jobbole.com/44845/" target="_blank">C &#x8BED;&#x8A00;&#x5185;&#x5B58;&#x5730;&#x5740;&#x57FA;&#x7840;</a></li>
+<li><a href="http://blog.jobbole.com/44639/" target="_blank">C &#x8BED;&#x8A00;&#x51FD;&#x6570;&#x6307;&#x9488;&#x57FA;&#x7840;</a></li>
+<li><a href="http://blog.jobbole.com/44863/" target="_blank">C &#x8BED;&#x8A00;&#x6307;&#x9488;&#x548C;&#x6570;&#x7EC4;&#x57FA;&#x7840;</a></li>
+<li><a href="http://nethack4.org/blog/building-c.html" target="_blank">&#x6784;&#x5EFA; C &#x9879;&#x76EE;</a></li>
+<li><a href="https://en.wikibooks.org/wiki/C_Programming" target="_blank">C &#x7F16;&#x7A0B;&#x767E;&#x79D1;&#x5168;&#x4E66;</a></li>
+<li><a href="https://gist.github.com/eatonphil/21b3d6569f24ad164365" target="_blank">&#x201C;&#x6709;&#x8DA3;&#x201D;&#x7684; C &#x4ECB;&#x7ECD;</a></li>
+<li><a href="https://www.recurse.com/blog/5-learning-c-with-gdb" target="_blank">&#x7528; GDB &#x5B66;&#x4E60; C</a></li>
+<li><a href="https://computing.llnl.gov/tutorials/pthreads/" target="_blank">POSIX &#x7EBF;&#x7A0B;&#x7F16;&#x7A0B;&#x6307;&#x5357;</a> (&#x6709;&#x70B9;&#x8FC7;&#x65F6;&#xFF0C;&#x4F46;&#x5927;&#x90E8;&#x5206;&#x8FD8;&#x662F;&#x6709;&#x6548;&#x548C;&#x6709;&#x7528;&#x7684;)</li>
+<li><a href="http://www.crasseux.com/books/ctut.pdf" target="_blank">GNU C &#x7F16;&#x7A0B;&#x6307;&#x5357;</a> (&#x5728;&#x7EBF; PDF)</li>
+<li><a href="http://blog.pkh.me/p/20-templating-in-c.html" target="_blank">C &#x8BED;&#x8A00;&#x4E2D;&#x7684;&#x6A21;&#x677F;</a></li>
+</ul>
+<h4 id="&#x4E2D;&#x7EA7;"><a name="&#x4E2D;&#x7EA7;" class="anchor-navigation-ex-anchor" href="#&#x4E2D;&#x7EA7;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E2D;&#x7EA7;</h4>
+<ul>
+<li><a href="https://blogs.oracle.com/ksplice/entry/8_gdb_tricks_you_should" target="_blank">8 &#x4E2A;&#x4F60;&#x5E94;&#x8BE5;&#x77E5;&#x9053;&#x7684; GDB &#x6280;&#x5DE7;</a></li>
+<li><a href="http://blog.noctua-software.com/c-tricks.html" target="_blank">10 &#x4E2A; C99 &#x6280;&#x5DE7;</a></li>
+<li><a href="http://jvns.ca/blog/2014/12/14/fun-with-threads/" target="_blank">&#x6DF1;&#x5165;&#x5E76;&#x53D1;&#xFF1A;&#x5C1D;&#x8BD5;&#x4E92;&#x65A5;&#x9501;&#x548C;&#x539F;&#x5B50;&#x64CD;&#x4F5C;</a></li>
+<li><a href="https://www.youtube.com/playlist?list=PLLX-Q6B8xqZ8n8bwjGdzBJ25X2utwnoEG" target="_blank">OpenMP &#x4ECB;&#x7ECD;</a> (&#x89C6;&#x9891;)</li>
+<li><a href="https://computing.llnl.gov/tutorials/openMP/" target="_blank">OpenMP &#x6307;&#x5357;</a> (&#x9488;&#x5BF9; OpenMP3 &#x6807;&#x51C6;)</li>
+<li><a href="http://www.tedunangst.com/flak/post/memcpy-vs-memmove" target="_blank">memcpy &#x4E0E; memmove &#x7684;&#x6BD4;&#x8F83;</a></li>
+<li><a href="https://computing.llnl.gov/tutorials/mpi/" target="_blank">MPI &#x6307;&#x5357;</a></li>
+<li><a href="http://proprogramming.org/some-unknown-features-or-tricks-in-c-language/" target="_blank">C &#x8BED;&#x8A00;&#x4E2D;&#x4E00;&#x4E9B;&#x672A;&#x77E5;&#x7279;&#x6027;&#x6216;&#x8005;&#x6280;&#x5DE7;</a></li>
+<li><a href="http://blog.jobbole.com/57822/" target="_blank">&#x5931;&#x843D;&#x7684; C &#x8BED;&#x8A00;&#x7ED3;&#x6784;&#x4F53;&#x5C01;&#x88C5;&#x827A;&#x672F;</a></li>
+<li><a href="http://marek.vavrusa.com/c/memory/2015/02/20/memory/" target="_blank">C &#x7A0B;&#x5E8F;&#x5458;&#x9700;&#x8981;&#x4E86;&#x89E3;&#x7684;&#x5185;&#x5B58;&#x77E5;&#x8BC6;</a></li>
+<li><a href="http://blog.llvm.org/2011/05/what-every-c-programmer-should-know.html" target="_blank">&#x6BCF;&#x4E2A; C &#x7A0B;&#x5E8F;&#x5458;&#x9700;&#x8981;&#x77E5;&#x9053;&#x7684;&#x672A;&#x5B9A;&#x4E49;&#x884C;&#x4E3A;&#x77E5;&#x8BC6;</a></li>
+</ul>
+<h4 id="&#x9AD8;&#x7EA7;"><a name="&#x9AD8;&#x7EA7;" class="anchor-navigation-ex-anchor" href="#&#x9AD8;&#x7EA7;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x9AD8;&#x7EA7;</h4>
+<ul>
+<li><a href="http://250bpm.com/blog:56" target="_blank">C &#x4E2D;&#x7684;&#x9AD8;&#x7EA7;&#x5143;&#x7F16;&#x7A0B;</a></li>
+<li><a href="http://danluu.com/malloc-tutorial/" target="_blank">&#x4E00;&#x4E2A;&#x5FEB;&#x901F;&#x6559;&#x7A0B;&#xFF1A;&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x548C;&#x8C03;&#x8BD5; malloc&#xFF0C;free&#xFF0C;calloc&#xFF0C;&#x548C; realloc</a></li>
+<li><a href="https://graphics.stanford.edu/~seander/bithacks.html" target="_blank">&#x4F4D;&#x64CD;&#x4F5C;&#x6280;&#x5DE7;</a></li>
+<li><a href="http://kukuruku.co/hub/programming/i-do-not-know-c" target="_blank">&#x6211;&#x4E0D;&#x61C2; C</a></li>
+<li><a href="https://snai.pe/c/c-smart-pointers/" target="_blank">&#x5728; C &#x8BED;&#x8A00;&#x4E2D;&#x5B9E;&#x73B0;&#x667A;&#x80FD;&#x6307;&#x9488;</a></li>
+<li><a href="http://www.greenend.org.uk/rjk/tech/inline.html" target="_blank">C &#x4E2D;&#x7684;&#x5185;&#x8054;&#x51FD;&#x6570;</a></li>
+<li><a href="http://www.chiark.greenend.org.uk/~sgtatham/mp/" target="_blank">C &#x4E2D;&#x7684;&#x81EA;&#x5B9A;&#x4E49;&#x63A7;&#x5236;&#x7ED3;&#x6784;&#x5143;&#x7F16;&#x7A0B;</a></li>
+<li><a href="http://www.samnip.ps/thought/macro-storage-for-inverse-comma" target="_blank">&#x7528; C &#x7684;&#x5B8F;&#x89E3;&#x51B3;&#x4E34;&#x65F6;&#x5185;&#x5B58;&#x95EE;&#x9898;</a></li>
+<li><a href="https://docs.google.com/presentation/d/1h49gY3TSiayLMXYmRMaAEMl05FaJ-Z6jDOWOz3EsqqQ/edit?pli=1#slide=id.gaf50702c_0153" target="_blank">C &#x8BED;&#x8A00;&#x4E2D;&#x4E00;&#x4E9B;&#x4E0D;&#x4E3A;&#x4EBA;&#x77E5;&#x7684;&#x89D2;&#x843D;</a></li>
+<li><a href="http://www.codeproject.com/Articles/6154/Writing-Efficient-C-and-C-Code-Optimization" target="_blank">&#x7F16;&#x5199;&#x9AD8;&#x6548;&#x7684; C &#x548C; C &#x4EE3;&#x7801;&#x4F18;&#x5316;</a></li>
+</ul>
+<h4 id="&#x81EA;&#x5B66;&#x6559;&#x7A0B;"><a name="&#x81EA;&#x5B66;&#x6559;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#&#x81EA;&#x5B66;&#x6559;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x81EA;&#x5B66;&#x6559;&#x7A0B;</h4>
+<ul>
+<li><a href="http://www.cppinstitute.org/?page_id=1487" target="_blank">C &#x8BED;&#x8A00;&#x8BA4;&#x8BC1;&#x534F;&#x4F1A;&#x9884;&#x5907;&#x8BFE;&#x7A0B;</a></li>
+</ul>
+<h3 id="&#x5B9E;&#x4F53;&#x4E66;"><a name="&#x5B9E;&#x4F53;&#x4E66;" class="anchor-navigation-ex-anchor" href="#&#x5B9E;&#x4F53;&#x4E66;"><i class="fa fa-link" aria-hidden="true"></i></a>1.15.2. &#x5B9E;&#x4F53;&#x4E66;</h3>
+<h4 id="&#x53C2;&#x8003;&#x8D44;&#x6599;"><a name="&#x53C2;&#x8003;&#x8D44;&#x6599;" class="anchor-navigation-ex-anchor" href="#&#x53C2;&#x8003;&#x8D44;&#x6599;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x53C2;&#x8003;&#x8D44;&#x6599;</h4>
+<ul>
+<li><a href="http://careferencemanual.com/" target="_blank">C: A Reference Manual 5E</a>&#xFF1A;C99 &#x5B8C;&#x5168;&#x53C2;&#x8003;&#x624B;&#x518C;</li>
+<li><a href="http://shop.oreilly.com/product/9780596004361.do" target="_blank">C Pocket Reference</a>&#xFF1A;C99 &#x7B80;&#x660E;&#x53C2;&#x8003;&#x624B;&#x518C;</li>
+<li><a href="https://en.wikipedia.org/wiki/The_C_Programming_Language" target="_blank">The C Programming Language 2E</a>&#xFF1A;&#x7B2C;&#x4E00;&#x672C; C &#x8BED;&#x8A00;&#x4E66;&#x7C4D;&#xFF0C;&#x7531; C &#x7684;&#x521B;&#x9020;&#x8005;&#x7F16;&#x5199;&#x3002;</li>
+</ul>
+<h4 id="&#x521D;&#x7EA7;"><a name="&#x521D;&#x7EA7;" class="anchor-navigation-ex-anchor" href="#&#x521D;&#x7EA7;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x521D;&#x7EA7;</h4>
+<ul>
+<li><a href="http://www.pearsonhighered.com/educator/product/C-Primer-Plus-6E/9780321928429.page" target="_blank">C Primer Plus 6E</a>&#xFF1A;&#x4E00;&#x4E2A;&#x5168;&#x9762;&#x7684; C11 &#x7F16;&#x7A0B;&#x6307;&#x5357;&#x3002;</li>
+<li><a href="http://knking.com/books/c2/index.html" target="_blank">C Programming: A Modern Approach</a>&#xFF1A;&#x4E00;&#x672C;&#x6781;&#x597D;&#x7684;&#x5B66;&#x4E60; C &#x57FA;&#x7840;&#x7684;&#x4E66;&#x3002;</li>
+<li><a href="http://shop.oreilly.com/product/0636920015482.do" target="_blank">Head First C</a>&#xFF1A;&#x4E00;&#x672C;&#x201C;&#x6DF1;&#x5165;&#x6D45;&#x51FA;&#x201D;&#x98CE;&#x683C;&#x7684;&#x5B66;&#x4E60; C &#x7684;&#x4E66;&#x7C4D;&#x3002;</li>
+</ul>
+<h4 id="&#x4E2D;&#x7EA7;"><a name="&#x4E2D;&#x7EA7;" class="anchor-navigation-ex-anchor" href="#&#x4E2D;&#x7EA7;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E2D;&#x7EA7;</h4>
+<ul>
+<li><a href="http://shop.oreilly.com/product/0636920033677.do" target="_blank">21st Century C</a>&#xFF1A;&#x4E00;&#x672C;&#x975E;&#x5E38;&#x597D;&#x7684; C &#x8BED;&#x8A00;&#x4E66;&#x7C4D;&#xFF0C;&#x53EF;&#x4F5C;&#x4E3A;&#x7B2C;&#x4E8C;&#x9009;&#x62E9;&#x3002;</li>
+<li><a href="http://shop.oreilly.com/product/0636920028000.do" target="_blank">Understanding and Using C Pointers</a>&#xFF1A;&#x4E00;&#x672C;&#x6DF1;&#x5165;&#x8BA8;&#x8BBA; C &#x6307;&#x9488;&#x7684;&#x4E66;&#x3002;</li>
+<li><a href="http://shop.oreilly.com/product/0636920026136.do" target="_blank">ZeroMQ</a>&#xFF1A;&#x4E00;&#x672C;&#x4ECB;&#x7ECD;&#x5982;&#x4F55;&#x7528; C &#x4F7F;&#x7528; ZeroMQ &#x7684;&#x4E66;&#x3002;</li>
+</ul>
+<h4 id="&#x9AD8;&#x7EA7;"><a name="&#x9AD8;&#x7EA7;" class="anchor-navigation-ex-anchor" href="#&#x9AD8;&#x7EA7;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x9AD8;&#x7EA7;</h4>
+<ul>
+<li><a href="http://dl.acm.org/citation.cfm?id=179241" target="_blank">Expert C Programming: Deep C Secrets</a>&#xFF1A;&#x4E00;&#x672C;&#x4ECE;&#x6709;&#x8DA3;&#xFF0C;&#x6DF1;&#x5EA6;&#x548C;&#x5A31;&#x4E50;&#x7684;&#x89C6;&#x89D2;&#x5206;&#x6790; C &#x5185;&#x90E8;&#x7ED3;&#x6784;&#x7684;&#x4E66;&#x7C4D;&#x3002;</li>
+</ul>
+<h2 id="multimedia"><a name="multimedia" class="anchor-navigation-ex-anchor" href="#multimedia"><i class="fa fa-link" aria-hidden="true"></i></a>1.16. &#x591A;&#x5A92;&#x4F53;</h2>
+
+<ul>
+<li>FFMPEG&#xFF1A;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#xFF0C;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x5F55;&#x97F3;&#xFF0C;&#x8F6C;&#x6362;&#x548C;&#x6D41;&#x5316;&#x89C6;&#x9891;&#x4EE5;&#x53CA;&#x97F3;&#x9891;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#xFF0C;&#x90E8;&#x5206;&#x662F; <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://www.ffmpeg.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GStreamer&#xFF1A;&#x4E00;&#x4E2A;&#x58F0;&#x97F3;&#x548C;&#x53EF;&#x89C6;&#x5316;&#x5A92;&#x4F53;&#x7684;&#x6846;&#x67B6;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#x3002;<a href="http://gstreamer.freedesktop.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>lodepng&#xFF1A;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684; PNG &#x56FE;&#x50CF;&#x89E3;&#x7801;&#x5668;&#x548C;&#x7F16;&#x7801;&#x5668;&#xFF0C;&#x4E0D;&#x9700;&#x8981;&#x5176;&#x4ED6;&#x4F9D;&#x8D56;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>.<a href="http://lodev.org/lodepng/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="networking-and-internet"><a name="networking-and-internet" class="anchor-navigation-ex-anchor" href="#networking-and-internet"><i class="fa fa-link" aria-hidden="true"></i></a>1.17. &#x7F51;&#x7EDC;&#x7F16;&#x7A0B;</h2>
+
+<ul>
+<li>asnlc&#xFF1A;&#x4E00;&#x4E2A;&#x628A; ASN.1 &#x89C4;&#x8303;&#x8F6C;&#x6362;&#x4E3A; C &#x4EE3;&#x7801;&#x7684;&#x7F16;&#x8BD1;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="http://lionet.info/asn1c/compiler.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>czmq&#xFF1A;&#x4E00;&#x4E2A; ZeroMQ &#x7684;&#x9AD8;&#x7EA7;&#x7ED1;&#x5B9A;&#x3002;<a href="https://github.com/zeromq/czmq" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GNU adns&#xFF1A;&#x4E00;&#x4E2A;&#x9AD8;&#x7EA7;&#xFF0C;&#x6613;&#x7528;&#xFF0C;&#x5F02;&#x6B65;&#x7684; DNS &#x5BA2;&#x6237;&#x7AEF;&#x548C;&#x5B9E;&#x7528;&#x5DE5;&#x5177;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x53CA;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/adns/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GNU SASL&#xFF1A;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x8EAB;&#x4EFD;&#x8BA4;&#x8BC1;&#x548C;&#x5B89;&#x5168;&#x5C42;&#x548C;&#x4E00;&#x4E9B;&#x5E38;&#x89C1; SASL &#x673A;&#x5236;&#x7684;&#x5B9E;&#x73B0;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x53CA;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/gsasl/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GnuTLS&#xFF1A;&#x4E00;&#x4E2A;&#x5B89;&#x5168;&#x901A;&#x4FE1;&#x5E93;&#xFF0C;&#x5B9E;&#x73B0;&#x4E86; SSL&#xFF0C;TLS &#x548C; DTLS&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a> &#x53CA;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://www.gnutls.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>gumbo-parser&#xFF1A;&#x4E00;&#x4E2A; C99 &#x6807;&#x51C6;&#x7684; HTML5 &#x89E3;&#x6790;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="https://github.com/google/gumbo-parser" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>http-parser&#xFF1A;&#x4E00;&#x4E2A; HTTP &#x8BF7;&#x6C42;&#x56DE;&#x5E94;&#x89E3;&#x6790;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/nodejs/http-parser" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>ldns&#xFF1A;&#x4E00;&#x4E2A;&#x7B80;&#x5316; DNS &#x7F16;&#x7A0B;&#x7684;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="http://www.nlnetlabs.nl/projects/ldns/index.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libcurl&#xFF1A;&#x4E00;&#x4E2A;&#x5BA2;&#x6237;&#x7AEF;&#x7684; URL &#x8F6C;&#x6362;&#x5E93;&#xFF0C;&#x652F;&#x6301;&#x591A;&#x79CD;&#x683C;&#x5F0F;&#x3002;<a href="http://curl.haxx.se/docs/copyright.html" target="_blank">curl license</a>&#x3002;<a href="http://curl.haxx.se/libcurl/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>LibEtPan&#xFF1A;&#x4E00;&#x4E2A;&#x90AE;&#x4EF6;&#x5E93;&#xFF0C;&#x652F;&#x6301; IMAP&#xFF0C;SMTP&#xFF0C;POP &#x548C; NNTP &#x7F51;&#x7EDC;&#x534F;&#x8BAE;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="https://github.com/dinhviethoa/libetpan" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libev&#xFF1A;&#x4E00;&#x4E2A;&#x4E8B;&#x4EF6;&#x9A71;&#x52A8;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>.<a href="http://software.schmorp.de/pkg/libev.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/libevent/" target="_blank">libevent</a>&#xFF1A;&#x4E00;&#x4E2A;&#x5728;&#x7F51;&#x7EDC;&#x670D;&#x52A1;&#x5668;&#x4E2D;&#x4E8B;&#x4EF6;&#x9A71;&#x52A8;&#x5E93;&#x7684;&#x53EF;&#x66FF;&#x4EE3;&#x54C1;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="http://libevent.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libgss&#xFF1A;&#x901A;&#x7528;&#x5B89;&#x5168;&#x670D;&#x52A1;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/gss/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libhttpd&#xFF1A;&#x4E00;&#x4E2A;&#x7ED9;&#x5E94;&#x7528;&#x6216;&#x5D4C;&#x5165;&#x5F0F;&#x8BBE;&#x5907;&#x6DFB;&#x52A0;&#x57FA;&#x672C; Web &#x670D;&#x52A1;&#x5668;&#x529F;&#x80FD;&#x7684;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL2</a>&#x3002;<a href="http://www.hughes.com.au/products/libhttpd/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libidn&#xFF1A;Stringprep&#xFF0C;Punycode &#x548C; IDNA &#x89C4;&#x8303;&#x7684;&#x5B9E;&#x73B0;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/libidn/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libmicrohttpd&#xFF1A;&#x4E00;&#x4E2A;&#x8FF7;&#x4F60;&#x5E93;&#xFF0C;&#x53EF;&#x4F5C;&#x4E3A;&#x5176;&#x4ED6;&#x5E94;&#x7528;&#x7684;&#x4E00;&#x90E8;&#x5206;&#xFF0C;&#x8BA9;&#x8FD0;&#x884C; HTTP &#x670D;&#x52A1;&#x5668;&#x53D8;&#x5F97;&#x7B80;&#x5355;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/libmicrohttpd/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libsoup&#xFF1A;&#x4E00;&#x4E2A; GNOME HTTP &#x5BA2;&#x6237;&#x7AEF;/&#x670D;&#x52A1;&#x5668;&#x5E93;&#xFF0C;&#x4F7F;&#x7528;&#x4E86; GObject&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#x3002;<a href="https://wiki.gnome.org/action/show/Projects/libsoup?action=show&amp;redirect=LibSoup" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>lwan&#xFF1A;&#x4E00;&#x4E2A;&#x5B9E;&#x9A8C;&#x6027;&#xFF0C;&#x53EF;&#x6269;&#x5C55;&#xFF0C;&#x9AD8;&#x6027;&#x80FD;&#x7684; HTTP &#x670D;&#x52A1;&#x5668;&#x3002; <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="https://github.com/lpereira/lwan" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/mongoose/" target="_blank">mongoose</a>&#xFF1A;&#x57FA;&#x4E8E; C &#x7684;&#x5D4C;&#x5165;&#x5F0F; Web &#x670D;&#x52A1;&#x5668;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="https://github.com/cesanta/mongoose" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>nanomsg&#xFF1A;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E; C &#x7684; ZeroMQ &#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/nanomsg/nanomsg" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>onion&#xFF1A;&#x6613;&#x4E8E;&#x4F7F;&#x7528;&#x7684; HTTP &#x670D;&#x52A1;&#x5668;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="https://github.com/davidmoreno/onion" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>OpenSSL&#xFF1A;&#x4E00;&#x4E2A; SSL &#x548C; TLS &#x534F;&#x8BAE;&#x7684;&#x5B9E;&#x73B0;&#xFF0C;&#x8FD8;&#x5305;&#x62EC;&#x4E00;&#x4E2A;&#x52A0;&#x5BC6;&#x5E93;&#x3002;<a href="https://www.openssl.org/source/license.html" target="_blank">Dual Licensed under the OpenSSL License and the SSLeay License</a>&#x3002;<a href="https://www.openssl.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>oSip&#xFF1A;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E; C &#x7684; SIO &#x5B9E;&#x73B0;&#xFF0C;&#x6CA1;&#x6709;&#x989D;&#x5916;&#x7684;&#x4F9D;&#x8D56;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPLv2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/osip/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>s2n&#xFF1A;&#x4E00;&#x4E2A; C99 &#x6807;&#x51C6;&#x7684; TLS/SSL &#x534F;&#x8BAE;&#x7684;&#x5B9E;&#x73B0;&#xFF0C;&#x7B80;&#x5355;&#xFF0C;&#x5FEB;&#x5E76;&#x4E14;&#x4EE5;&#x5B89;&#x5168;&#x4F18;&#x5148;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="https://github.com/awslabs/s2n" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>socket99&#xFF1A;BSD &#x5957;&#x63A5;&#x5B57; API &#x7684; C99 &#x5C01;&#x88C5;&#x3002;<a href="http://directory.fsf.org/wiki/License:ISC" target="_blank">ISC</a>&#x3002;<a href="https://github.com/silentbicycle/socket99" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Tox&#xFF1A;&#x4E00;&#x4E2A;&#x901A;&#x4FE1;&#x5E73;&#x53F0;&#xFF0C;&#x88AB;&#x8BBE;&#x8BA1;&#x4E3A; Skype &#x6740;&#x624B;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#x3002;<a href="https://github.com/irungentoo/toxcore" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>twitc&#xFF1A;&#x4E00;&#x4E2A;&#x4E0E; Twitter OAuth API &#x4EA4;&#x4E92;&#x7684;&#x8FF7;&#x4F60; C &#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/sinemetu1/twitc" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h3 id="web-frameworks"><a name="web-frameworks" class="anchor-navigation-ex-anchor" href="#web-frameworks"><i class="fa fa-link" aria-hidden="true"></i></a>1.17.1. Web&#x6846;&#x67B6;</h3>
+
+<ul>
+<li>balde&#xFF1A;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E; GLib &#x7684; C &#x5FAE;&#x6846;&#x67B6;&#x3002; <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPLv2.1</a>&#x3002;<a href="https://github.com/balde/balde" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="#numerical"><a name="#numerical" class="anchor-navigation-ex-anchor" href="##numerical"><i class="fa fa-link" aria-hidden="true"></i></a>1.18. &#x6570;&#x503C;&#x8BA1;&#x7B97;</h2>
+
+<ul>
+<li>apophenia&#xFF1A;&#x4E00;&#x4E2A;&#x7528;&#x4E8E;&#x7EDF;&#x8BA1;&#x548C;&#x79D1;&#x5B66;&#x8BA1;&#x7B97;&#x7684;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="https://github.com/b-k/apophenia" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>ATLAS&#xFF1A;&#x81EA;&#x52A8;&#x8C03;&#x8C10;&#x7EBF;&#x6027;&#x4EE3;&#x6570;&#x8F6F;&#x4EF6;&#x3002; <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="http://math-atlas.sourceforge.net/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>BLAS&#xFF1A;Basic Linear Algebra Subprograms&#xFF1B;&#x63D0;&#x4F9B;&#x5411;&#x91CF;&#x548C;&#x77E9;&#x9635;&#x64CD;&#x4F5C;&#x7684;&#x4E00;&#x7CFB;&#x5217;&#x64CD;&#x4F5C;&#x3002;<a href="http://www.netlib.org/blas/#_licensing" target="_blank">BLAS license</a>&#x3002;<a href="http://www.netlib.org/blas/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Cuba&#xFF1A;&#x4E00;&#x4E2A;&#x8BA1;&#x7B97;&#x591A;&#x7EF4;&#x7684;&#x6570;&#x503C;&#x79EF;&#x5206;&#x7684;&#x5E93;&#x3002; <a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPLv3</a>&#x3002;<a href="http://www.feynarts.de/cuba/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>FFTW&#xFF1A;The Fastest Fourier Transform in the West&#xFF1B;&#x4E00;&#x4E2A;&#x9AD8;&#x5EA6;&#x4F18;&#x5316;&#x7684;&#x5FEB;&#x901F;&#x5085;&#x7ACB;&#x53F6;&#x53D8;&#x6362;&#x4F8B;&#x7A0B;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://www.fftw.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>FLINT&#xFF1A;Fast Library for Number Theory;&#x4E00;&#x4E2A;&#x652F;&#x6301;&#x7B97;&#x6570;&#xFF0C;&#x591A;&#x9879;&#x5F0F;&#xFF0C;&#x5E42;&#x7EA7;&#x6570;&#x548C;&#x77E9;&#x9635;&#x7B49;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://flintlib.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GLPK&#xFF1A;GNU Linear Programming Kit&#xFF1B;&#x4E00;&#x4E2A;&#x6C42;&#x89E3;&#x5927;&#x89C4;&#x6A21;&#x7EBF;&#x6027;&#x89C4;&#x5212;&#xFF0C;&#x6DF7;&#x5408;&#x6574;&#x6570;&#x89C4;&#x5212;&#x548C;&#x5176;&#x4ED6;&#x76F8;&#x5173;&#x95EE;&#x9898;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/glpk/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GMP&#xFF1A;GNU Multple Precision Arithmetic Library&#xFF1B;&#x4E00;&#x4E2A;&#x652F;&#x6301;&#x4EFB;&#x610F;&#x7CBE;&#x5EA6;&#x8BA1;&#x7B97;&#x7684;&#x5E93;&#x3002;&#x53CC;&#x91CD;&#x8BB8;&#x53EF; <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a> &#x548C; <a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPLv3</a>&#x3002;<a href="https://gmplib.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GNU MPC&#xFF1A;&#x4E00;&#x4E2A;&#x652F;&#x6301;&#x590D;&#x6742;&#x6570;&#x5B57;&#x8BA1;&#x7B97;&#x7684;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://www.multiprecision.org/index.php?prog=mpc&amp;page=home" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GNU MPFR&#xFF1A;&#x4E00;&#x4E2A;&#x652F;&#x6301;&#x4EFB;&#x610F;&#x7CBE;&#x5EA6;&#x7684;&#x6D6E;&#x70B9;&#x6570;&#x8BA1;&#x7B97;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#xFF08;&#x5927;&#x591A;&#x6570;&#x6700;&#x8FD1;&#x7248;&#x672C;&#xFF09;&#xFF0C;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#xFF08;2.4.x &#x4E4B;&#x524D;&#xFF09;&#x3002;<a href="http://mpfr.loria.fr/index.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GNU MPRIA&#xFF1A;&#x4E00;&#x4E2A;&#x652F;&#x6301;&#x591A;&#x7CBE;&#x5EA6;&#x5408;&#x7406;&#x533A;&#x95F4;&#x8FD0;&#x7B97;&#x7684;&#x53EF;&#x6269;&#x5C55;&#x6570;&#x5B66;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/mpria/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GSL&#xFF1A;The GNU Scientific Library&#xFF1B;&#x4E00;&#x4E2A;&#x7CBE;&#x786E;&#x7684;&#x6570;&#x503C;&#x8BA1;&#x7B97;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#x3002;<a href="http://www.gnu.org/software/gsl/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>KISS FFT&#xFF1A;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x5FEB;&#x7684;&#x5085;&#x91CC;&#x53F6;&#x53D8;&#x6362;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="http://sourceforge.net/projects/kissfft/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>LAPACKE&#xFF1A;&#x4E00;&#x4E2A; <a href="http://www.netlib.org/lapack/" target="_blank">LAPACK</a> &#x7684; C &#x63A5;&#x53E3;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="http://www.netlib.org/lapack/lapacke.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>PARI/GP&#xFF1A;&#x4E00;&#x4E2A;&#x6570;&#x8BBA;&#x7684;&#x8BA1;&#x7B97;&#x673A;&#x4EE3;&#x6570;&#x7CFB;&#x7EDF;&#xFF0C;&#x5305;&#x62EC; C &#x7F16;&#x8BD1;&#x5668;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://pari.math.u-bordeaux.fr/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>PETSc&#xFF1A;&#x4E00;&#x7CFB;&#x5217;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x548C;&#x4F8B;&#x7A0B;&#xFF0C;&#x7528;&#x4E8E;&#x8BA1;&#x7B97;&#x7531;&#x504F;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x5EFA;&#x6A21;&#x7684;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x53EF;&#x6269;&#x5C55;&#x5E76;&#x884C;&#x89E3;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="http://www.mcs.anl.gov/petsc/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>SLEPc&#xFF1A;&#x4E00;&#x4E2A;&#x5728;&#x5E76;&#x884C;&#x8BA1;&#x7B97;&#x673A;&#x4E2D;&#x7684;&#x89E3;&#x51B3;&#x5927;&#x578B;&#xFF0C;&#x7A00;&#x758F;&#x7279;&#x5F81;&#x503C;&#x95EE;&#x9898;&#x7684;&#x8F6F;&#x4EF6;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">LGPL3</a><a href="http://slepc.upv.es/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Yeppp!&#xFF1A;&#x975E;&#x5E38;&#x5FEB;&#xFF0C;SIMD &#x4F18;&#x5316;&#x7684;&#x6570;&#x5B66;&#x5E93;&#x3002; <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="http://www.yeppp.info/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="parallel-programming"><a name="parallel-programming" class="anchor-navigation-ex-anchor" href="#parallel-programming"><i class="fa fa-link" aria-hidden="true"></i></a>1.19. &#x5E76;&#x884C;&#x7F16;&#x7A0B;</h2>
+
+<ul>
+<li>cchan&#xFF1A;&#x4E00;&#x4E2A;&#x7EBF;&#x7A0B;&#x95F4;&#x901A;&#x4FE1;&#x901A;&#x9053;&#x6784;&#x5EFA;&#x7684;&#x5C0F;&#x578B;&#x5E93;&#x3002;&#x516C;&#x5171;&#x9886;&#x57DF;&#x3002;<a href="http://repo.hu/projects/cchan/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>ck&#xFF1A;&#x5E76;&#x53D1;&#x539F;&#x8BED;&#xFF0C;&#x5B89;&#x5168;&#x5185;&#x5B58;&#x56DE;&#x6536;&#x673A;&#x5236;&#x548C;&#x975E;&#x963B;&#x585E;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://github.com/concurrencykit/ck" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>mill&#xFF1A;&#x7528; C &#x5199;&#x6210;&#x7684; Go &#x98CE;&#x683C;&#x5E76;&#x53D1;&#x3002;<a href="https://directory.fsf.org/wiki/License:X11" target="_blank">X11</a><a href="http://libmill.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>MPICH&#xFF1A;MPI &#x7684;&#x53E6;&#x4E00;&#x79CD;&#x5B9E;&#x73B0;&#x3002;<a href="http://git.mpich.org/mpich.git/blob_plain/6aab201f58d71fc97f2c044d250389ba86ac1e3c:/COPYRIGHT" target="_blank">MPICH licence</a>&#x3002;<a href="http://www.mpich.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>OpenMP&#xFF1A;&#x4E00;&#x7EC4; C &#x7F16;&#x8BD1;&#x6307;&#x4EE4;&#xFF0C;&#x4F7F;&#x5176;&#x6613;&#x4E8E;&#x5E76;&#x884C;&#x5316;&#x4EE3;&#x7801;&#x3002;&#x6807;&#x51C6;&#xFF08;&#x8BB8;&#x53EF;&#x4E0D;&#x9002;&#x7528;&#xFF09;&#x3002;<a href="http://openmp.org/wp/about-openmp/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>OpenMPI&#xFF1A;&#x4E00;&#x4E2A;&#x6D88;&#x606F;&#x4F20;&#x8F93;&#x63A5;&#x53E3;&#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="https://github.com/open-mpi/ompi" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>PETSc&#xFF1A;&#x4E00;&#x7CFB;&#x5217;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x548C;&#x4F8B;&#x7A0B;&#xFF0C;&#x7528;&#x4E8E;&#x8BA1;&#x7B97;&#x7531;&#x504F;&#x5FAE;&#x5206;&#x65B9;&#x7A0B;&#x5EFA;&#x6A21;&#x7684;&#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7684;&#x53EF;&#x6269;&#x5C55;&#x5E76;&#x884C;&#x89E3;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="http://www.mcs.anl.gov/petsc/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>pth&#xFF1A;&#x4E00;&#x4E2A;&#x975E;&#x62A2;&#x5360;&#x5F0F;&#x4F18;&#x5148;&#x7EA7;&#x8C03;&#x5EA6;&#x591A;&#x7EBF;&#x7A0B;&#x6267;&#x884C;&#x7684;&#x53EF;&#x6269;&#x5C55;&#x5B9E;&#x73B0;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x8005;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/pth/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>pthreads&#xFF1A;POSIX &#x7EBF;&#x7A0B;&#x5E93;&#x3002;&#x6807;&#x51C6;&#xFF08;&#x6CA1;&#x6709;&#x9002;&#x7528;&#x7684;&#x8BB8;&#x53EF;&#xFF09;&#x3002;<a href="https://en.wikipedia.org/wiki/POSIX_Threads" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>SLEPc&#xFF1A;&#x4E00;&#x4E2A;&#x5728;&#x5E76;&#x884C;&#x8BA1;&#x7B97;&#x673A;&#x4E2D;&#x7684;&#x89E3;&#x51B3;&#x5927;&#x578B;&#xFF0C;&#x7A00;&#x758F;&#x7279;&#x5F81;&#x503C;&#x95EE;&#x9898;&#x7684;&#x8F6F;&#x4EF6;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL3</a>&#x3002;<a href="http://slepc.upv.es/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>TinyCThread&#xFF1A;&#x4E00;&#x4E2A;&#x53EF;&#x6269;&#x5C55;&#xFF0C;&#x5C0F;&#x578B;&#x7684; C11 &#x6807;&#x51C6;&#x7EBF;&#x7A0B; API &#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki/License:Zlib" target="_blank">zlib</a>&#x3002;<a href="https://tinycthread.github.io/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="regex"><a name="regex" class="anchor-navigation-ex-anchor" href="#regex"><i class="fa fa-link" aria-hidden="true"></i></a>1.20. &#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;</h2>
+
+<blockquote>
+<p>&#x6709;&#x4E9B;&#x4EBA;&#x9047;&#x5230;&#x95EE;&#x9898;&#x65F6;&#x5C31;&#x4F1A;&#x60F3;&#xFF1A;&#x201C;&#x554A;&#xFF0C;&#x6211;&#x77E5;&#x9053;&#x4E86;&#xFF0C;&#x6211;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x201D;&#x3002;&#x4E8E;&#x662F;&#x73B0;&#x5728;&#x4ED6;&#x4EEC;&#x6709;&#x4E86;&#x4E24;&#x4E2A;&#x95EE;&#x9898;&#x3002;- Jamie Zawinski&#x3002;</p>
+</blockquote>
+<ul>
+<li>PCRE&#xFF1A;&#x4E0E; Perl 5 &#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5B8C;&#x5168;&#x76F8;&#x540C;&#x7684;&#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="http://www.pcre.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>SLRE&#xFF1A;Super Light Regular Expression library;&#x4E00;&#x4E2A; Perl &#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x8BED;&#x6CD5;&#x5B50;&#x96C6;&#x7684;&#x8FF7;&#x4F60;&#x5B9E;&#x73B0;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="https://github.com/cesanta/slre" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>TRE&#xFF1A;&#x4E00;&#x4E2A;&#x4E0E; POSIX &#x4E00;&#x81F4;&#xFF0C;&#x5145;&#x6EE1;&#x7279;&#x8272;&#x7684;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://github.com/laurikari/tre/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>PS&#xFF1A;&#x5173;&#x4E8E;&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;deerchao &#x6709;&#x7BC7;&#x6587;&#x7AE0;&#x4E0D;&#x9519; &#x300A;<a href="http://blog.jobbole.com/96708/" target="_blank">&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F; 30 &#x5206;&#x949F;&#x5165;&#x95E8;&#x6559;&#x7A0B;</a>&#x300B;</li>
+</ul>
+<h2 id="serialization"><a name="serialization" class="anchor-navigation-ex-anchor" href="#serialization"><i class="fa fa-link" aria-hidden="true"></i></a>1.21. &#x5E8F;&#x5217;&#x5316;</h2>
+
+<ul>
+<li>c-capnproto&#xFF1A;&#x4E00;&#x4E2A; Cap&apos;n Proto &#x5E8F;&#x5217;&#x5316;&#x534F;&#x8BAE;&#x7684;&#x5B9E;&#x73B0;&#x3002; <a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/jmckaskill/c-capnproto" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>cmp&#xFF1A;&#x4E00;&#x4E2A; <a href="http://msgpack.org/" target="_blank">MessagePack</a> &#x5E8F;&#x5217;&#x5316;&#x534F;&#x8BAE;&#x7684;&#x5B9E;&#x73B0;&#x3002; <a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/camgunz/cmp" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libavro&#xFF1A;&#x4E00;&#x4E2A; Avro &#x6570;&#x636E;&#x5E8F;&#x5217;&#x5316;&#x7CFB;&#x7EDF;&#x7684; C &#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="http://avro.apache.org/docs/current/api/c/index.html#_introduction_to_avro_c" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>mpack&#xFF1A;&#x53E6;&#x4E00;&#x4E2A; <a href="http://msgpack.org/" target="_blank">MessagePack</a> &#x5E8F;&#x5217;&#x5316;&#x534F;&#x8BAE;&#x7684;&#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/ludocode/mpack" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>protobuf-c&#xFF1A;&#x4E00;&#x4E2A; Google Protocol Buffer &#x7684; C &#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://github.com/protobuf-c/protobuf-c" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>xdr&#xFF1A;External Data Representation&#xFF1B;&#x6570;&#x636E;&#x5E8F;&#x5217;&#x5316;&#x6807;&#x51C6;&#x3002;&#x6807;&#x51C6;&#xFF08;&#x6CA1;&#x6709;&#x53EF;&#x7528;&#x8BB8;&#x53EF;&#xFF09;&#x3002;<a href="https://en.wikipedia.org/wiki/External_Data_Representation" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="source-code-collections"><a name="source-code-collections" class="anchor-navigation-ex-anchor" href="#source-code-collections"><i class="fa fa-link" aria-hidden="true"></i></a>1.22. &#x6E90;&#x7801;&#x96C6;&#x9526;</h2>
+
+<p>&#x4E0B;&#x9762;&#x5305;&#x542B;&#x4E86;&#x4E00;&#x4E9B;&#x5C0F;&#x578B;&#x6E90;&#x7801;&#x96C6;&#x5408;&#x3002;&#x5982;&#x679C;&#x4F60;&#x60F3;&#x8981;&#x5927;&#x578B;&#x4E14;&#x6210;&#x719F;&#x7684;&#xFF0C;&#x770B;&#x300A;&#x6846;&#x67B6;&#x300B;&#x90A3;&#x4E00;&#x8282;&#x3002;</p>
+<ul>
+<li>CCAN&#xFF1A;&#x6A21;&#x4EFF; Perl &#x7684; CPAN&#xFF0C;&#x8FD9;&#x662F;&#x4E00;&#x4E2A;&#x5927;&#x7684;&#x5B9E;&#x7528; C &#x4EE3;&#x7801;&#x96C6;&#x5408;&#x3002;&#x5B8C;&#x6574;&#x7684;&#x5217;&#x8868;&#x5728; <a href="http://ccodearchive.net/list.html" target="_blank">&#x8FD9;&#x91CC;</a>&#x3002;&#x591A;&#x79CD;&#x8BB8;&#x53EF;&#xFF08;&#x6240;&#x6709;&#x90FD;&#x662F;&#x514D;&#x8D39;&#x8F6F;&#x4EF6;&#xFF09;&#x3002;<a href="http://ccodearchive.net/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>clib&#xFF1A;&#x4E00;&#x4E2A; C &#x8F6F;&#x4EF6;&#x5305;&#x7BA1;&#x7406;&#x5668;&#xFF0C;&#x914D;&#x5907;&#x4E86;&#x4E00;&#x5806;&#x81EA;&#x5DF1;&#x7684;&#x5E93;&#x3002; <a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/clibs/clib" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>gnulib&#xFF1A;&#x901A;&#x7528; GNU &#x4EE3;&#x7801;&#x7684;&#x96C6;&#x5408;&#x3002;&#x591A;&#x79CD;&#x8BB8;&#x53EF;&#x8BC1;&#xFF0C;&#x5168;&#x90E8;&#x514D;&#x8D39;&#x3002;<a href="https://www.gnu.org/software/gnulib/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libdjb&#xFF1A;&#x505A;&#x5404;&#x79CD;&#x4E8B;&#x60C5;&#x7684;&#x5E93;&#x7684;&#x96C6;&#x5408;&#x3002;&#xFF08;&#x663E;&#x7136;&#xFF09;&#x516C;&#x5171;&#x9886;&#x57DF;&#x3002;<a href="http://www.fefe.de/djb/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="standard-libraries"><a name="standard-libraries" class="anchor-navigation-ex-anchor" href="#standard-libraries"><i class="fa fa-link" aria-hidden="true"></i></a>1.23. &#x6807;&#x51C6;&#x5E93;</h2>
+
+<p>&#x4E0B;&#x9762;&#x5305;&#x62EC;&#x4E86;&#x6807;&#x51C6; C &#x5E93;&#x3002;</p>
+<ul>
+<li>Bionic&#xFF1A;&#x8C37;&#x6B4C;&#x4E3A; Android &#x5F00;&#x53D1;&#x7684; C &#x6807;&#x51C6;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="https://github.com/android/platform_bionic" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>dietlibc&#xFF1A;&#x6807;&#x51C6; C &#x5E93;&#xFF0C;&#x53EF;&#x80FD;&#x662F;&#x6700;&#x5C0F;&#x7684;&#x4E8C;&#x8FDB;&#x5236;&#x6587;&#x4EF6;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://www.fefe.de/dietlibc/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>glibc&#xFF1A;GNU C &#x5E93;&#x3002;&#x4E00;&#x4E2A; C &#x6807;&#x51C6;&#x5E93;&#x7684;&#x5B9E;&#x73B0;&#x3002; <a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#x3002;<a href="http://www.gnu.org/software/libc/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>musl&#xFF1A;&#x6807;&#x51C6; C &#x5E93;&#xFF0C;&#x517C;&#x5BB9; POSIX 2008 &#x548C; C11&#xFF0C;&#x4E3A;&#x9759;&#x6001;&#x94FE;&#x63A5;&#x8BBE;&#x8BA1;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="http://www.musl-libc.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="string-manipulation"><a name="string-manipulation" class="anchor-navigation-ex-anchor" href="#string-manipulation"><i class="fa fa-link" aria-hidden="true"></i></a>1.24. &#x5B57;&#x7B26;&#x4E32;&#x5904;&#x7406;</h2>
+
+<ul>
+<li>bstrlib&#xFF1A;&#x66F4;&#x597D;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x5904;&#x7406;&#x5E93;&#x3002;&#x53CC;&#x91CD;&#x8BB8;&#x53EF;&#xFF0C;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a> &#x6216; <a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://bstring.sourceforge.net/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>ICU&#xFF1A;International Components for Unicode&#xFF1B;&#x63D0;&#x4F9B; Unicode &#x652F;&#x6301;&#x7684;&#x5E93;&#x3002; <a href="http://source.icu-project.org/repos/icu/icu/trunk/license.html" target="_blank">ICU license</a>&#x3002;<a href="http://site.icu-project.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libunistring&#xFF1A;&#x5904;&#x7406; Unicode &#x5B57;&#x7B26;&#x4E32;&#x7684; C &#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL3</a>&#x3002;<a href="https://gnu.org/software/libunistring/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libgiconv&#xFF1A;&#x6587;&#x672C;&#x8F6C;&#x6362;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#xFF08;&#x5E93;&#xFF09;&#xFF0C;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#xFF08;&#x7F16;&#x7801;&#x8F6C;&#x6362;&#x7A0B;&#x5E8F;&#xFF09;&#x3002;<a href="https://gnu.org/software/libiconv/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>SDS&#xFF1A;Simple Dynamic Strings&#xFF1B;&#x4E00;&#x4E2A;&#x7528;&#x7B80;&#x5355;&#x65B9;&#x5F0F;&#x5904;&#x7406; C &#x5B57;&#x7B26;&#x4E32;&#x7684;&#x5E93;&#xFF0C;&#x800C;&#x4E14;&#x517C;&#x5BB9;&#x6807;&#x51C6; C &#x5B57;&#x7B26;&#x4E32;&#x51FD;&#x6570;&#x3002;&#x53EF;&#x901A;&#x8FC7; <a href="https://github.com/clibs/clib" target="_blank">clib</a> &#x4F7F;&#x7528;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://github.com/antirez/sds" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>shoco&#xFF1A;&#x4E00;&#x4E2A;&#x5C0F;&#x578B;&#x6587;&#x672C;&#x538B;&#x7F29;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/Ed-von-Schleck/shoco" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>smaz&#xFF1A;&#x4E00;&#x4E2A;&#x9AD8;&#x6548;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x538B;&#x7F29;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>.<a href="https://github.com/Ed-von-Schleck/shoco" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="testing"><a name="testing" class="anchor-navigation-ex-anchor" href="#testing"><i class="fa fa-link" aria-hidden="true"></i></a>1.25. &#x6D4B;&#x8BD5;&#x5DE5;&#x5177;</h2>
+
+<ul>
+<li>CHEAT&#xFF1A;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x7B80;&#x5355;&#x7684;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6846;&#x67B6;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://github.com/Tuplanolla/cheat" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Check&#xFF1A;&#x4E00;&#x4E2A; C &#x7684;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6846;&#x67B6;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.1</a>&#x3002;<a href="http://check.sourceforge.net/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>CMock&#xFF1A;&#x4E00;&#x4E2A; C &#x7684; mock/stub &#x751F;&#x6210;&#x5668;&#x3002;<a href="https://github.com/ThrowTheSwitch/CMock" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>cmocka&#xFF1A;&#x4E00;&#x4E2A;&#x652F;&#x6301; mock &#x5BF9;&#x8C61;&#x7684;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6846;&#x67B6;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="https://cmocka.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Criterion&#xFF1A;&#x4E00;&#x4E2A; KISS &#x98CE;&#x683C;&#xFF0C;&#x975E;&#x4FB5;&#x5165;&#x5F0F;&#x7684; C &#x6D4B;&#x8BD5;&#x6846;&#x67B6;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a><a href="https://github.com/Snaipe/Criterion" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>CUnit&#xFF1A;&#x53E6;&#x4E00;&#x4E2A; C &#x7684;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6846;&#x67B6;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPL2.0</a>&#x3002;<a href="http://cunit.sourceforge.net/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>minunit&#xFF1A;&#x6781;&#x5C0F;&#x7684; C &#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6846;&#x67B6;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/siu/minunit" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Unity&#xFF1A;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684; C &#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6846;&#x67B6;&#x3002; <a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/ThrowTheSwitch/Unity" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="text-editor-extensions"><a name="text-editor-extensions" class="anchor-navigation-ex-anchor" href="#text-editor-extensions"><i class="fa fa-link" aria-hidden="true"></i></a>1.26. &#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#x6269;&#x5C55;</h2>
+
+<p>&#x5728;&#x51E0;&#x4E4E;&#x4EFB;&#x4F55;&#x50CF;&#x6837;&#x7684;&#x6587;&#x672C;&#x7F16;&#x8F91;&#x5668;&#x652F;&#x6301; C &#x4E4B;&#x9645;&#xFF0C;&#x6709;&#x4E00;&#x4E9B;&#x6269;&#x5C55;&#xFF0C;&#x8BA9;&#x7F16;&#x8F91;&#x5668;&#x66F4;&#x52A0;&#x4EE4;&#x4EBA;&#x6109;&#x5FEB;&#x3002;&#x4E0B;&#x9762;&#x662F;&#x6839;&#x636E;&#x7F16;&#x8F91;&#x5668;&#x5206;&#x76EE;&#x5F55;&#x7684;&#x3002;</p>
+<h3 id="emacs"><a name="emacs" class="anchor-navigation-ex-anchor" href="#emacs"><i class="fa fa-link" aria-hidden="true"></i></a>1.26.1. Emacs</h3>
+<ul>
+<li>CEDET&#xFF1A;Collection of Emacs Development Environment Tools&#xFF1B;&#x7ED9; Emacs &#x63D0;&#x4F9B;&#x4E00;&#x79CD;&#x7C7B;&#x4F3C; IDE &#x7684;&#x7279;&#x70B9;&#xFF0C;&#x662F;&#x5185;&#x5EFA;&#x7684;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://cedet.sourceforge.net/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Flycheck&#xFF1A;&#x73B0;&#x4EE3;&#x8BED;&#x6CD5;&#x68C0;&#x67E5;&#x3002;&#x5BF9;&#x4E8E; C&#xFF0C;&#x5B83;&#x53EF;&#x4EE5;&#x4F7F;&#x7528; GCC &#x6216;&#x8005; Clang &#x4F5C;&#x4E3A;&#x540E;&#x7AEF;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://github.com/flycheck/flycheck" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Yasnippet&#xFF1A;&#x4E00;&#x4E2A;&#x6A21;&#x677F;&#x7CFB;&#x7EDF;&#xFF0C;&#x652F;&#x6301; C &#x7684;&#x901A;&#x7528;&#x4EE3;&#x7801;&#x7247;&#x6BB5;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://github.com/capitaomorte/yasnippet" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h3 id="vim"><a name="vim" class="anchor-navigation-ex-anchor" href="#vim"><i class="fa fa-link" aria-hidden="true"></i></a>1.26.2. Vim</h3>
+<ul>
+<li>Syntastic&#xFF1A;&#x8BED;&#x6CD5;&#x68C0;&#x67E5;&#x548C;&#x8BED;&#x8A00;&#x5206;&#x6790;&#x3002;<a href="https://github.com/scrooloose/syntastic/blob/master/LICENCE" target="_blank">Do What The Fuck You Want To license</a>&#x3002;<a href="https://github.com/scrooloose/syntastic" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/youcompleteme/" target="_blank">YouCompleteMe</a>&#xFF1A;&#x4E00;&#x4E2A; Vim &#x7684;&#x4EE3;&#x7801;&#x8865;&#x5168;&#x5F15;&#x64CE;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#x3002;<a href="http://valloric.github.io/YouCompleteMe/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="tools"><a name="tools" class="anchor-navigation-ex-anchor" href="#tools"><i class="fa fa-link" aria-hidden="true"></i></a>1.27. &#x5DE5;&#x5177;</h2>
+
+<p>&#x4E0B;&#x9762;&#x662F;&#x5B9E;&#x7528;&#x7684;&#x7A0B;&#x5E8F;&#x5217;&#x8868;&#xFF0C;&#x5305;&#x62EC;&#x4E86;&#x5E2E;&#x52A9;&#x4F60;&#x7F16;&#x5199;&#x548C;&#x8C03;&#x8BD5; C &#x4EE3;&#x7801;&#x7684;&#x5E93;&#x6216;&#x8005;&#x7F16;&#x8BD1;&#x5668;&#xFF0C;&#x4E0D;&#x5305;&#x62EC;&#x7F16;&#x8F91;&#x5668;&#x3002;</p>
+<ul>
+<li>adlint&#xFF1A;&#x4E00;&#x4E2A;&#x9759;&#x6001;&#x5206;&#x6790;&#x5668;&#x3002;&#x652F;&#x6301;&#x5B8C;&#x5168;&#x7684; C89 &#x6807;&#x51C6;&#x548C;&#x90E8;&#x5206; C99 &#x6807;&#x51C6;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://yanoh.github.io/adlint/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Artistic Style&#xFF1A;&#x4E00;&#x4E2A;&#x652F;&#x6301; C &#x7684;&#x5C0F;&#x800C;&#x5FEB;&#x7684;&#x81EA;&#x52A8;&#x5316;&#x4EE3;&#x7801;&#x683C;&#x5F0F;&#x5316;&#x5DE5;&#x5177;&#x3002;<a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL3</a>&#x3002;<a href="http://astyle.sourceforge.net/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>address-sanitizer&#xFF1A;&#x4E00;&#x4E2A;&#x5F88;&#x5FEB;&#x7684;&#x5185;&#x5B58;&#x9519;&#x8BEF;&#x63A2;&#x6D4B;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="https://github.com/google/sanitizers" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/biicode/" target="_blank">biicode</a>&#xFF1A;&#x4E00;&#x4E2A;&#x73B0;&#x4EE3;&#x7684; C &#x4F9D;&#x8D56;&#x7BA1;&#x7406;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://biicode.github.io/biicode/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>c&#xFF1A;&#x5728;&#x547D;&#x4EE4;&#x884C;&#x4E2D;&#x7F16;&#x8BD1;&#x548C;&#x6267;&#x884C; C &#x811A;&#x672C;&#xFF0C;&#x4E5F;&#x652F;&#x6301; shebang&#x3002; <a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/ryanmjacobs/c" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>c99sh&#xFF1A;&#x7528; hash-bang &#x8FD0;&#x884C; C &#x6587;&#x4EF6;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://github.com/RhysU/c99sh" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>CBMC&#xFF1A;C Bounded Model Checker&#xFF1B;&#x4E00;&#x4E2A;&#x68C0;&#x67E5;&#x6570;&#x7EC4;&#x8FB9;&#x754C;&#xFF0C;&#x6307;&#x9488;&#x5B89;&#x5168;&#x548C;&#x7528;&#x6237;&#x81EA;&#x5B9A;&#x4E49;&#x65AD;&#x8A00;&#x7684;&#x5DE5;&#x5177;&#x3002;<a href="https://directory.fsf.org/wiki/License:BSD_4Clause" target="_blank">Original BSD</a>&#x3002;<a href="http://www.cprover.org/cbmc/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>cdecl&#xFF1A;&#x4E00;&#x4E2A;&#x5728;&#x7EBF;&#x670D;&#x52A1;&#xFF0C;&#x80FD;&#x591F;&#x628A; C &#x7684;&#x58F0;&#x660E;&#x7FFB;&#x8BD1;&#x6210;&#x82F1;&#x6587;&#xFF0C;&#x53CD;&#x5411;&#x4E5F;&#x53EF;&#x4EE5;&#x3002;&#x516C;&#x5171;&#x9886;&#x57DF;&#x3002;<a href="https://github.com/mpv-player/mpv" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>cinclude2dot&#xFF1A;&#x5728; C &#x9879;&#x76EE;&#x4E2D;&#x4F7F;&#x7528; Graphviz &#x7684;&#x56FE;&#x50CF;&#x5305;&#x542B;&#x4F9D;&#x8D56;&#x3002;&#x4EFB;&#x5B98;&#x7F51; GNU GPL &#x7248;&#x672C;&#xFF08;&#x6839;&#x636E;&#x6587;&#x4EF6;&#x4E2D;&#x7684;&#x8981;&#x6C42;&#xFF09;<a href="https://www.flourish.org/cinclude2dot/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/complexity/" target="_blank">Complexity</a>&#xFF1A;&#x4E00;&#x4E2A;&#x6D4B;&#x91CF; C &#x4EE3;&#x7801;&#x590D;&#x6742;&#x6027;&#x7684;&#x5DE5;&#x5177;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://www.gnu.org/software/complexity/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>DDD&#xFF1A;&#x5404;&#x79CD;&#x547D;&#x4EE4;&#x884C;&#x8C03;&#x8BD5;&#x5668;&#x7684;&#x56FE;&#x5F62;&#x524D;&#x7AEF;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://www.gnu.org/software/ddd/ddd.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>fab&#xFF1A;&#x8BA9;&#x6BCF;&#x6B21;&#x6784;&#x5EFA;&#x90FD;&#x6700;&#x4F18;&#x7684;&#x6784;&#x5EFA;&#x7CFB;&#x7EDF;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#x3002;<a href="http://fabutil.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GDB&#xFF1A;The GNU Project debugger&#xFF1B;&#x4E00;&#x4E2A; C &#x8C03;&#x8BD5;&#x5668;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://www.gnu.org/software/gdb/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Glade&#xFF1A;&#x4E00;&#x4E2A;&#x8BA9; TK+ GUIs &#x5F00;&#x53D1;&#x66F4;&#x5FEB;&#x7684; RAD &#x5DE5;&#x5177;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="https://glade.gnome.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GMSL&#xFF1A;GNU Make Standard Library&#xFF1B;&#x4E00;&#x4E2A; GNU Make &#x989D;&#x5916;&#x529F;&#x80FD;&#x7684;&#x96C6;&#x5408;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="http://gmsl.sourceforge.net/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GNU Global&#xFF1A;&#x4E00;&#x4E2A; C &#x7684;&#x6E90;&#x7801;&#x6807;&#x7B7E;&#x5DE5;&#x5177;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#x3002;<a href="https://www.gnu.org/software/global/" target="_blank">&#x5B98;&#x7F51; Global</a></li>
+<li>gprof&#xFF1A;&#x4E00;&#x4E2A;&#x6027;&#x80FD;&#x5206;&#x6790;&#x5DE5;&#x5177;&#x3002;GNU binutils &#x7684;&#x4E00;&#x90E8;&#x5206;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://www.gnu.org/software/binutils/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Highlight&#xFF1A;&#x628A;&#x6E90;&#x7801;&#x8F6C;&#x5316;&#x4E3A;&#x9AD8;&#x4EAE;&#x7684;&#x683C;&#x5F0F;&#x5316;&#x6587;&#x672C;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#x3002;<a href="http://www.andre-simon.de/index.php" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>include-what-you-use&#xFF1A;&#x5E2E;&#x52A9;&#x7A0B;&#x5E8F;&#x5458;&#x53D1;&#x73B0;&#x4E0D;&#x5FC5;&#x8981;&#x7684;&#x5305;&#x542B;&#x548C;&#x63D0;&#x4F9B;&#x89E3;&#x51B3;&#x4ED6;&#x4EEC;&#x7684;&#x5EFA;&#x8BAE;&#x3002;&#x57FA;&#x4E8E; LLVM/Clang&#xFF08;&#x53EA;&#x80FD;&#x4E0E;&#x5B83;&#x4E00;&#x8D77;&#x5DE5;&#x4F5C;&#xFF09;&#x3002;<a href="http://directory.fsf.org/wiki/License:IllinoisNCSA" target="_blank">NCSA</a>&#x3002;<a href="https://github.com/include-what-you-use/include-what-you-use" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>indent&#xFF1A;&#x81EA;&#x52A8;&#x683C;&#x5F0F;&#x5316; C &#x4EE3;&#x7801;&#xFF0C;&#x8BA9;&#x5B83;&#x66F4;&#x5BB9;&#x6613;&#x9605;&#x8BFB;&#x3002;&#x4E5F;&#x80FD;&#x628A;&#x4E00;&#x79CD;&#x98CE;&#x683C;&#x7684;&#x4EE3;&#x7801;&#x8F6C;&#x5316;&#x4E3A;&#x53E6;&#x4E00;&#x79CD;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://www.gnu.org/software/indent/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Make&#xFF1A;&#x4E00;&#x4E2A;&#x63A7;&#x5236;&#x7A0B;&#x5E8F;&#x7684;&#x53EF;&#x6267;&#x884C;&#x548C;&#x5176;&#x4ED6;&#x975E;&#x4EE3;&#x7801;&#x6587;&#x4EF6;&#x7684;&#x751F;&#x6210;&#x7684;&#x5DE5;&#x5177;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#xFF08;&#x94FE;&#x63A5;&#x5230; GNU &#x7684;&#x5B9E;&#x73B0;)&#x3002;<a href="https://www.gnu.org/software/make/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>qo&#xFF1A;&#x65E0;&#x9700;&#x5206;&#x5F00;&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x7684;&#x6784;&#x5EFA;&#x7CFB;&#x7EDF;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/andlabs/qo" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>rr&#xFF1A;&#x8BB0;&#x5F55;&#x975E;&#x786E;&#x5B9A;&#x6267;&#x884C;&#x6765;&#x5141;&#x8BB8;&#x53EF;&#x786E;&#x5B9A;&#x8C03;&#x8BD5;&#x7684;&#x8C03;&#x8BD5;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="http://rr-project.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>tup&#xFF1A;&#x4E00;&#x4E2A;&#x5F88;&#x5FEB;&#xFF0C;&#x57FA;&#x4E8E;&#x6587;&#x4EF6;&#xFF0C;&#x8DE8;&#x5E73;&#x53F0;&#x7684;&#x6784;&#x5EFA;&#x7CFB;&#x7EDF;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://gittup.org/tup/index.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>unifdef&#xFF1A;&#x79FB;&#x9664; #ifdef &#x548C; #if &#x6307;&#x4EE4;&#x5305;&#x542B;&#x7684;&#x6587;&#x672C;&#xFF0C;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#x6587;&#x4EF6;&#x7684;&#x5176;&#x4ED6;&#x90E8;&#x5206;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a> &#x548C; <a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="http://dotat.at/prog/unifdef/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Valgrind&#xFF1A;&#x5404;&#x79CD;&#x52A8;&#x6001;&#x5206;&#x6790;&#x5DE5;&#x5177;&#xFF0C;&#x5305;&#x62EC;&#x4E00;&#x4E2A;&#x5185;&#x5B58;&#x6CC4;&#x6F0F;&#x68C0;&#x6D4B;&#x5DE5;&#x5177;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://www.valgrind.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="utilities"><a name="utilities" class="anchor-navigation-ex-anchor" href="#utilities"><i class="fa fa-link" aria-hidden="true"></i></a>1.28. &#x5176;&#x4ED6;&#x5DE5;&#x5177;</h2>
+
+<p>&#x4E0B;&#x9762;&#x662F;&#x5305;&#x7F57;&#x4E07;&#x8C61;&#x7684;&#x76EE;&#x5F55;&#xFF0C;&#x4E3B;&#x8981;&#x662F;&#x90A3;&#x4E9B;&#x4E0D;&#x9002;&#x5408;&#x653E;&#x5728;&#x5176;&#x4ED6;&#x76EE;&#x5F55;&#x7684;&#x4E1C;&#x897F;&#x3002;</p>
+<ul>
+<li>ApeTagLibs&#xFF1A;APEv2 &#x6807;&#x7B7E;&#x7684; C &#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/jeremyevans/ape_tag_libs/tree/master/c" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>bfd&#xFF1A;&#x5904;&#x7406;&#x4E8C;&#x8FDB;&#x5236;&#x5BF9;&#x8C61;&#x6587;&#x4EF6;&#x7684;&#x5E93;&#x3002;GNU binutils &#x7684;&#x4E00;&#x90E8;&#x5206;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://sourceware.org/binutils/docs/bfd/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/ccv/" target="_blank">ccv</a>&#xFF1A;&#x57FA;&#x4E8E;C&#x8BED;&#x8A00;&#x3001;&#x5E26;&#x7F13;&#x5B58;&#x673A;&#x5236;&#x7684;&#x73B0;&#x4EE3;&#x8BA1;&#x7B97;&#x673A;&#x89C6;&#x89C9;&#x6838;&#x5FC3;&#x5E93;&#x3002; <a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="https://github.com/liuliu/ccv" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/cf4ocl/" target="_blank">cf4ocl</a>&#xFF1A;The C Framework for OpenCL&#xFF1B;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x6846;&#x67B6;&#xFF0C;&#x7528;&#x4E8E;&#x5F00;&#x53D1;&#x548C;&#x7528;&#x57FA;&#x51C6;&#x95EE;&#x9898;&#x6D4B;&#x8BD5; <a href="https://www.khronos.org/opencl/" target="_blank">OpenCL</a> &#x9879;&#x76EE;&#x3002;<a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL3</a>&#xFF08;&#x5E93;&#xFF09;, <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#xFF08;&#x5176;&#x4ED6;&#x4EE3;&#x7801;&#xFF09;&#x3002;<a href="https://fakenmc.github.io/cf4ocl/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>CommonMark&#xFF1A;CommonMark &#x89C4;&#x8303;&#x7684; C &#x5B9E;&#x73B0;&#x3002;<a href="https://github.com/jgm/CommonMark/blob/master/LICENSE" target="_blank">Variety of licenses, all free</a>&#x3002;<a href="https://github.com/jgm/CommonMark" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>CException&#xFF1A;&#x5F02;&#x5E38;&#x7684; C &#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/ThrowTheSwitch/CException" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>docopt.c&#xFF1A;&#x547D;&#x4EE4;&#x884C;&#x9009;&#x9879;&#x89E3;&#x6790;&#x5668;&#x7684; C &#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/docopt/docopt.c" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>dyncall&#xFF1A;&#x53E6;&#x4E00;&#x4E2A;&#x5916;&#x90E8;&#x51FD;&#x6570;&#x63A5;&#x53E3;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="http://www.dyncall.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>FANN&#xFF1A;Fast Artifical Neural Network library&#xFF1B;&#x4E00;&#x4E2A;&#x795E;&#x7ECF;&#x7F51;&#x7EDC;&#x7684;&#x5B9E;&#x73B0;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://leenissen.dk/fann/wp/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Firm&#xFF1A;&#x4E00;&#x4E2A; C &#x5E93;&#xFF0C;&#x63D0;&#x4F9B;&#x4E86;&#x57FA;&#x4E8E;&#x56FE;&#x50CF;&#x4E2D;&#x95F4;&#x8868;&#x793A;&#xFF0C;&#x4F18;&#x5316;&#x548C;&#x9002;&#x5408;&#x7F16;&#x8BD1;&#x5668;&#x7684;&#x6C47;&#x7F16;&#x4EE3;&#x7801;&#x751F;&#x6210;&#x3002;&#x914D;&#x5907;&#x4E86; C &#x7684;&#x524D;&#x7AEF;&#x4F8B;&#x5B50;&#xFF0C;&#x4F7F;&#x7528;&#x76F8;&#x540C;&#x7684;&#x8BB8;&#x53EF;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPLv2.1</a>&#x3002;<a href="http://pp.ipd.kit.edu/firm/Index" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>gjrand&#xFF1A;&#x968F;&#x673A;&#x6570;&#x5B57;&#x751F;&#x6210;&#x7684;&#x4F8B;&#x7A0B;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a> &#x6216;&#x8005; <a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPLv3</a>&#xFF08;&#x7528;&#x6237;&#x7684;&#x9009;&#x62E9;&#xFF09;&#x3002;<a href="http://sourceforge.net/projects/gjrand/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GNU FreeIPMI&#xFF1A;&#x4E00;&#x4E2A;&#x5E26;&#x5185;&#x548C;&#x5E26;&#x5916;&#x7684; IPMI &#x5B9E;&#x73B0;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a>&#x3002;<a href="https://gnu.org/software/freeipmi/index.html" target="_blank">&#x5B98;&#x7F51; FreeIPMI</a></li>
+<li>GNU gperf&#xFF1A;&#x4E00;&#x4E2A;&#x5B8C;&#x7F8E;&#x7684;&#x54C8;&#x5E0C;&#x51FD;&#x6570;&#x751F;&#x6210;&#x5668;&#xFF0C;&#x63D0;&#x4F9B;&#x4E00;&#x7CFB;&#x5217;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x3002;&#x8F93;&#x51FA; C &#x4EE3;&#x7801;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://www.gnu.org/software/gperf/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>GNU Libffcall&#xFF1A;&#x4E00;&#x4E2A;&#x6784;&#x5EFA;&#x5916;&#x90E8;&#x51FD;&#x6570;&#x63A5;&#x53E3;&#x5E93;&#x7684;&#x96C6;&#x5408;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/libffcall/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>gperftools&#xFF1A;&#x4E00;&#x7CFB;&#x5217;&#x6D4B;&#x91CF;&#x548C;&#x63D0;&#x9AD8;&#x6027;&#x80FD;&#x7684;&#x5B9E;&#x7528;&#x5DE5;&#x5177;&#x96C6;&#x5408;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="https://github.com/gperftools/gperftools" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>hammer&#xFF1A;&#x4E8C;&#x8FDB;&#x5236;&#x683C;&#x5F0F;&#x7684;&#x89E3;&#x6790;&#x5668;&#x7EC4;&#x5408;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GPL2.1</a>.<a href="https://github.com/abiggerhammer/hammer" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Hans Boehm GC&#xFF1A;C &#x7684;&#x5783;&#x573E;&#x6536;&#x96C6;&#x5668;&#xFF1F;&#x5982;&#x679C;&#x6211;&#x7528;&#x4E86;&#x4E0D;&#x8981;&#x4ECB;&#x610F;&#x3002;&#x591A;&#x79CD;&#x8BB8;&#x53EF;&#x8BC1;&#xFF0C;&#x5B8C;&#x5168;&#x514D;&#x8D39;&#x3002;<a href="http://www.hboehm.info/gc/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>huffandpuff&#xFF1A;&#x4E00;&#x4E2A;&#x6781;&#x5C0F;&#x7684;&#x54C8;&#x592B;&#x66FC;&#x7F16;&#x7801;&#x5668;&#x548C;&#x89E3;&#x7801;&#x5668;&#x3002;&#x516C;&#x5171;&#x9886;&#x57DF;&#x3002;<a href="https://github.com/adamierymenko/huffandpuff" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>iniparser&#xFF1A;&#x4E00;&#x4E2A; .ini &#x6587;&#x4EF6;&#x7684;&#x89E3;&#x6790;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/ndevilla/iniparser" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>jemalloc&#xFF1A;&#x4E00;&#x4E2A; malloc &#x5B9E;&#x73B0;&#xFF0C;&#x7740;&#x91CD;&#x4E8E;&#x6BB5;&#x9519;&#x8BEF;&#x7684;&#x907F;&#x514D;&#x548C;&#x53EF;&#x6269;&#x5C55;&#x5E76;&#x53D1;&#x652F;&#x6301;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="http://www.canonware.com/jemalloc/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>jwHash&#xFF1A;&#x4E00;&#x4E2A;&#x5F88;&#x5FEB;&#x7684;&#x54C8;&#x5E0C;&#x8868;&#x5B9E;&#x73B0;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="https://github.com/watmough/jwHash" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>kdtree&#xFF1A;KD-trees &#x7684;&#x7B80;&#x5355;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="https://github.com/jtsiomb/kdtree" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Kitsune&#xFF1A;&#x9AD8;&#x6548;&#xFF0C;&#x901A;&#x7528;&#x7684;&#x6846;&#x67B6;&#xFF0C;&#x7528;&#x4E8E;&#x8F6F;&#x4EF6;&#x7684;&#x52A8;&#x6001;&#x5347;&#x7EA7;&#x3002; <a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://kitsune-dsu.com/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libavl&#xFF1A;&#x4E00;&#x4E2A;&#x5305;&#x62EC;&#x5404;&#x79CD;&#x81EA;&#x5E73;&#x8861;&#x4E8C;&#x53C9;&#x6811;&#x7684;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="http://adtinfo.org/libavl.html/index.html" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libbson&#xFF1A;BSON &#x5B9E;&#x7528;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="https://github.com/mongodb/libbson" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libCello&#xFF1A;&#x5F15;&#x5165;&#x9AD8;&#x7EA7;&#x8BED;&#x8A00;&#x7ED9; C &#x7684;&#x5E93;&#x3002;<a href="http://libcello.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libcox&#xFF1A;&#x4E00;&#x4E2A;&#x8FD0;&#x884C;&#x8DE8;&#x5E73;&#x53F0;&#x7CFB;&#x7EDF;&#x8C03;&#x7528;&#x548C;&#x8DE8;&#x7CFB;&#x7EDF;&#x6807;&#x51C6;&#x5DE5;&#x5177;&#x7684;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="http://libcox.net/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libffi&#xFF1A;&#x8F7B;&#x91CF;&#x7EA7;&#x7684;&#x5916;&#x90E8;&#x51FD;&#x6570;&#x63A5;&#x53E3;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/atgreen/libffi" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libgit2&#xFF1A;Git &#x7684;&#x7EAF; C &#x5B9E;&#x73B0;&#x3002;<a href="https://github.com/libgit2/libgit2/blob/master/COPYING" target="_blank">GNU GPL2 only, with a linking exception</a>&#x3002;<a href="https://libgit2.github.com/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libimobiledevice&#xFF1A;&#x4E00;&#x4E2A;&#x8DE8;&#x5E73;&#x53F0;&#x534F;&#x8BAE;&#x5E93;&#xFF0C;&#x7528;&#x4E8E;&#x4E0E; iThings &#x901A;&#x4FE1;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html" target="_blank">GNU LGPLv2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#xFF08;&#x5E93;&#xFF09;&#xFF0C;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#xFF08;&#x5DE5;&#x5177;&#xFF09;&#x3002;<a href="https://github.com/libimobiledevice/libimobiledevice" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libmpv&#xFF1A;&#x97F3;&#x4E50;&#x64AD;&#x653E;&#x5E93;&#x3002;&#x7F16;&#x8BD1;&#x7684;&#x65F6;&#x5019;&#x52A0;&#x5165; <code>./waf configure --disable-cplayer --enable-libmpv-shared</code> &#x6765;&#x907F;&#x514D;&#x751F;&#x6210;&#x97F3;&#x4E50;&#x64AD;&#x653E;&#x5668;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://github.com/mpv-player/mpv" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libnfc&#xFF1A;&#x4E00;&#x4E2A;&#x5E73;&#x53F0;&#x72EC;&#x7ACB;&#x7684; NFC &#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/lgpl.html" target="_blank">GNU LGPL3</a>&#x3002;<a href="https://github.com/nfc-tools/libnfc" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/libphenom/" target="_blank">libPhenom</a>&#xFF1A;&#x4E8B;&#x4EF6;&#x6846;&#x67B6;&#xFF0C;&#x7528;&#x4E8E;&#x6784;&#x5EFA;&#x9AD8;&#x6269;&#x5C55;&#x548C;&#x9AD8;&#x6027;&#x80FD;&#x7CFB;&#x7EDF;&#x3002;<a href="http://directory.fsf.org/wiki/License:Apache2.0" target="_blank">Apache2.0</a>&#x3002;<a href="http://facebook.github.io/libphenom/index.html" target="_blank">&#x5B98;&#x7F51;</a>&#x3001;<a href="https://github.com/facebook/libphenom" target="_blank">GitHub</a></li>
+<li>libsoundio&#xFF1A;&#x8DE8;&#x5E73;&#x53F0;&#xFF0C;&#x5B9E;&#x65F6;&#x97F3;&#x9891;&#x8F93;&#x5165;&#x8F93;&#x51FA;&#x7684;&#x5E93;&#xFF0C;&#x6709;&#x5F88;&#x591A;&#x79CD;&#x540E;&#x7AEF;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/andrewrk/libsoundio" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libucl&#xFF1A;&#x901A;&#x7528;&#x914D;&#x7F6E;&#x5E93;&#x89E3;&#x6790;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://github.com/vstakhov/libucl" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libudp&#xFF1A;&#x4E00;&#x4E2A;&#x7EDF;&#x4E00;&#x8BBE;&#x8BA1;&#x6A21;&#x5F0F;&#x7684; C &#x5B9E;&#x73B0;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://notabug.org/koz.ross/libudp" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libuv&#xFF1A;&#x8DE8;&#x5E73;&#x53F0;&#x5F02;&#x6B65; I/O&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/libuv/libuv" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libYAML&#xFF1A;&#x4E00;&#x4E2A; YAML 1.1 &#x89E3;&#x6790;&#x5668;&#x548C;&#x53D1;&#x5C04;&#x5668;&#x3002; <a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="http://www.pyyaml.org/wiki/LibYAML" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>lzo&#xFF1A;&#x4E00;&#x4E2A;&#x5F88;&#x5FEB;&#x7684;&#x6570;&#x636E;&#x538B;&#x7F29;&#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://www.oberhumer.com/opensource/lzo/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>mpc&#xFF1A;&#x89E3;&#x6790;&#x5668;&#x7EC4;&#x5408;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki?title=License:FreeBSD" title="License:FreeBSD" target="_blank">FreeBSD</a>&#x3002;<a href="https://github.com/orangeduck/mpc" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>ncurses&#xFF1A;&#x5F69;&#x8272;&#x7684;&#x7EC8;&#x7AEF; UI &#x5E93;&#x3002;<a href="http://www.gnu.org/licenses/gpl.html" target="_blank">GNU GPL3</a> &#x6216;&#x66F4;&#x9AD8;&#x7248;&#x672C;&#x3002;<a href="https://gnu.org/software/ncurses/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>nope.c&#xFF1A;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E; C &#x8BED;&#x8A00;&#xFF0C;&#x8D85;&#x7EA7;&#x8F7B;&#x91CF;&#x7EA7;&#x7684;&#x8F6F;&#x4EF6;&#x5E73;&#x53F0;&#xFF0C;&#x7528;&#x4E8E;&#x53EF;&#x6269;&#x5C55;&#x670D;&#x52A1;&#x7AEF;&#x548C;&#x7F51;&#x7EDC;&#x5E94;&#x7528;&#x7684;&#x5F00;&#x53D1;&#xFF08;&#x60F3;&#x60F3; C &#x7A0B;&#x5E8F;&#x5458;&#x7684; nodejs&#xFF09;&#x3002;<a href="https://github.com/riolet/nope.c" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>pbc&#xFF1A;&#x4E00;&#x4E2A;&#x534F;&#x8BAE;&#x7F13;&#x51B2;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/cloudwu/pbc" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>rabbitmq-c&#xFF1A;<a href="http://www.rabbitmq.com/" target="_blank">RabbitMQ</a> &#x7684;&#x5BA2;&#x6237;&#x7AEF;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/alanxz/rabbitmq-c" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Ragel&#xFF1A;&#x4E3A;&#x7F16;&#x8BD1;C&#x7684;&#x72B6;&#x6001;&#x673A;&#x7684;DSL&#x3002;<a href="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html" target="_blank">GNU GPL2.1</a>&#x3002;<a href="http://www.colm.net/open-source/ragel/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>uthash&#xFF1A;&#x54C8;&#x5E0C;&#x8868;&#x5B9E;&#x73B0;&#xFF0C;&#x5141;&#x8BB8;&#x5DF2;&#x7ECF;&#x5B58;&#x5728;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x5F88;&#x5BB9;&#x6613;&#x5730;&#x5B58;&#x5728;&#x54C8;&#x5E0C;&#x8868;&#x91CC;&#x9762;&#x3002;<a href="http://troydhanson.github.io/uthash/license.html" target="_blank">1-clause BSD</a>&#x3002;<a href="http://troydhanson.github.io/uthash/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>Viola&#xFF1A;libCello &#x7684;&#x7B80;&#x5316;&#x7248;&#x672C;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="https://github.com/eatonphil/Viola" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>zlib&#xFF1A;&#x4E00;&#x4E2A;&#x76F8;&#x5F53;&#x6F02;&#x4EAE;&#x5374;&#x7CBE;&#x81F4;&#x4E0D;&#x5F20;&#x626C;&#x7684;&#x538B;&#x7F29;&#x5E93;&#x3002;<a href="http://directory.fsf.org/wiki/License:BSD_3Clause" target="_blank">3-clause BSD</a>&#x3002;<a href="https://github.com/madler/zlib" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/sundown/" target="_blank">Sundown</a>&#xFF1A;&#x4E00;&#x4E2A;&#x7528;C&#x7F16;&#x5199;&#x7684;&#x7B26;&#x5408;&#x6807;&#x51C6;&#x7684;&#x3001;&#x5FEB;&#x901F;&#x7684;&#x3001;&#x5B89;&#x5168;&#x7684;&#x6E90;&#x7801;&#x89E3;&#x6790;&#x5668;&#x3002;<a href="https://github.com/vmg/sundown" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="xml"><a name="xml" class="anchor-navigation-ex-anchor" href="#xml"><i class="fa fa-link" aria-hidden="true"></i></a>1.29. XML</h2>
+
+<blockquote>
+<p>&#x201C;XML &#x662F;&#x5783;&#x573E;&#x3002;&#x771F;&#x7684;&#xFF0C;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x501F;&#x53E3;&#x3002;XML &#x5BF9;&#x4EBA;&#x7C7B;&#x4E0D;&#x53CB;&#x597D;&#x7684;&#xFF0C;&#x751A;&#x81F3;&#x5BF9;&#x4E8E;&#x7535;&#x8111;&#x6765;&#x8BF4;&#x4E5F;&#x662F;&#x4E00;&#x573A;&#x707E;&#x96BE;&#x3002;&#x6839;&#x5B98;&#x7F51; -Linus Torvalds</p>
+</blockquote>
+<ul>
+<li><a href="http://hao.jobbole.com/expat/" target="_blank">Expat</a>&#xFF1A;&#x9762;&#x5411;&#x6D41;&#x7684; XML &#x89E3;&#x6790;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="http://www.libexpat.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li>libxml2&#xFF1A;&#x4E00;&#x4E2A;&#x7B26;&#x5408;&#x6807;&#x51C6;&#xFF0C;&#x8F7B;&#x91CF;&#x7EA7;&#x7684; XML &#x89E3;&#x6790;&#x5668;&#x3002;<a href="http://directory.fsf.org/wiki/License:Expat" target="_blank">Expat</a>&#x3002;<a href="http://xmlsoft.org/" target="_blank">&#x5B98;&#x7F51;</a></li>
+<li><a href="http://hao.jobbole.com/mini-xml/" target="_blank">mini-xml</a>&#xFF1A;&#x5C0F;&#x578B; XML &#x8BFB;&#x5199;&#x5E93;&#x3002;&#x6CA1;&#x6709; C &#x6807;&#x51C6;&#x5E93;&#x7684;&#x4F9D;&#x8D56;&#x3002;<a href="http://svn.msweet.org/mxml/trunk/COPYING" target="_blank">GNU LGPL2.1 with static linking exception</a>&#x3002;<a href="http://www.msweet.org/projects.php?Z3" target="_blank">&#x5B98;&#x7F51;</a></li>
+</ul>
+<h2 id="resources-2"><a name="resources-2" class="anchor-navigation-ex-anchor" href="#resources-2"><i class="fa fa-link" aria-hidden="true"></i></a>1.30. &#x5176;&#x4ED6;&#x8D44;&#x6E90;</h2>
+
+<p></p><h3 id="influential-books"><a name="influential-books" class="anchor-navigation-ex-anchor" href="#influential-books"><i class="fa fa-link" aria-hidden="true"></i></a>1.30.1. &#x6709;&#x5F71;&#x54CD;&#x529B;&#x7684;&#x4E66;</h3>
+<em>&#x5177;&#x6709;&#x5E7F;&#x6CDB;&#x5F71;&#x54CD;&#x4E14;&#x503C;&#x5F97;&#x9605;&#x8BFB;&#x7684; C &#x8BED;&#x8A00;&#x7ECF;&#x5178;&#x4E66;&#x7C4D;&#x3002;</em><p></p>
+<ul>
+<li>&#x5F85;&#x8865;&#x5145;</li>
+</ul>
+<p></p><h3 id="websites-blogs"><a name="websites-blogs" class="anchor-navigation-ex-anchor" href="#websites-blogs"><i class="fa fa-link" aria-hidden="true"></i></a>1.30.2. &#x77E5;&#x540D;&#x7F51;&#x7AD9;/&#x535A;&#x5BA2;</h3>
+<em>&#x503C;&#x5F97;&#x5173;&#x6CE8;&#x7684; C &#x8BED;&#x8A00;&#x6280;&#x672F;&#x7AD9;&#x70B9;&#x548C;&#x535A;&#x5BA2;&#x3002;</em><p></p>
+<h4 id="&#x4E2D;&#x6587;"><a name="&#x4E2D;&#x6587;" class="anchor-navigation-ex-anchor" href="#&#x4E2D;&#x6587;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x4E2D;&#x6587;</h4>
+
+<ul>
+<li>&#x5F85;&#x8865;&#x5145;</li>
+</ul>
+<h4 id="&#x82F1;&#x6587;"><a name="&#x82F1;&#x6587;" class="anchor-navigation-ex-anchor" href="#&#x82F1;&#x6587;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x82F1;&#x6587;</h4>
+
+<ul>
+<li>&#x5F85;&#x8865;&#x5145;</li>
+</ul>
+<p></p><h3 id="weibo-weixin"><a name="weibo-weixin" class="anchor-navigation-ex-anchor" href="#weibo-weixin"><i class="fa fa-link" aria-hidden="true"></i></a>1.30.3. &#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;</h3><p></p>
+<ul>
+<li>CPP&#x5F00;&#x53D1;&#x8005;&#xFF1A;&#x4E13;&#x6CE8;&#x5206;&#x4EAB; C/C++ &#x5F00;&#x53D1;&#x76F8;&#x5173;&#x7684;&#x6280;&#x672F;&#x6587;&#x7AE0;&#x548C;&#x5DE5;&#x5177;&#x8D44;&#x6E90;&#x3002;
+<br><img src="http://ww1.sinaimg.cn/small/63918611gw1epb2c4w55aj2046046t8t.jpg" width="150" height="150"></li>
+</ul>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; 2018 S all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2018-07-06 19:02:28
+</span></footer> <link rel="stylesheet" type="text/css" href="https://storage.googleapis.com/app.klipse.tech/css/codemirror.css"> <script>     window.klipse_settings = {         selector: ".language-klipse, .lang-eval-clojure",         selector_eval_js: ".lang-eval-js",         selector_eval_python_client: ".lang-eval-python",         selector_eval_php: ".lang-eval-php",         selector_eval_scheme: ".lang-eval-scheme",         selector_eval_ruby: ".lang-eval-ruby",         selector_reagent: ".lang-reagent",        selector_google_charts: ".lang-google-chart",        selector_es2017: ".lang-eval-es2017",        selector_jsx: ".lang-eval-jsx",        selector_transpile_jsx: ".lang-transpile-jsx",        selector_render_jsx: ".lang-render-jsx",        selector_react: ".lang-react",        selector_eval_markdown: ".lang-render-markdown",        selector_eval_lambdaway: ".lang-render-lambdaway",        selector_eval_cpp: ".lang-eval-cpp",        selector_eval_html: ".lang-render-html",        selector_sql: ".lang-eval-sql",        selector_brainfuck: "lang-eval-brainfuck",        selector_js: ".lang-transpile-cljs"    }; </script> <script src="https://storage.googleapis.com/app.klipse.tech/plugin/js/klipse_plugin.js"></script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="cpp-cn.html" class="navigation navigation-prev " aria-label="Previous page: C++ 资源大全中文版">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="../tools/book-list.html" class="navigation navigation-next " aria-label="Next page: 补充书籍">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"C 语言资源大全中文版","level":"6","depth":0,"next":{"title":"补充书籍","level":"1","depth":0,"path":"tools/book-list.md","ref":"tools/book-list.md","articles":[]},"previous":{"title":"C++ 资源大全中文版","level":"5","depth":0,"path":"other-language/cpp-cn.md","ref":"other-language/cpp-cn.md","articles":[]},"dir":"ltr"},"config":{"plugins":["theme-comscore","-lunr","-search","search-plus@^0.0.11","-highlight","-livereload","simple-page-toc@^0.1.1","github@^2.0.0","github-buttons@2.1.0","edit-link@^2.0.2","prism@^2.1.0","prism-themes@^0.0.2","advanced-emoji@^0.2.1","anchors@^0.7.1","include-codeblock@^3.0.2","ace@^0.3.2","emphasize@^1.1.0","katex@^1.1.3","splitter@^0.0.8","mermaid-gb3@2.1.0","tbfed-pagefooter@^0.0.1","expandable-chapters-small@^0.1.7","sectionx@^3.1.0","donate@^1.0.2","local-video@^1.0.1","sitemap-general@^0.1.1","anchor-navigation-ex@0.1.8","favicon@^0.0.2","todo@^0.1.3","3-ba@^0.9.0","terminal@^0.3.2","alerts@^0.2.0","include-csv@^0.1.0","puml@^1.0.1","musicxml@^1.0.2","klipse@^1.2.0","rss@^3.0.2","-sharing","sharing-plus@^0.0.2","graph@^0.1.0","chart@^0.2.0","ga","copy-code-button"],"root":".","styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright © 2018 S","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]},"include-csv":{},"emphasize":{},"ace":{},"github":{"url":"https://github.com/ds-ebooks/Guide.git"},"puml":{},"simple-page-toc":{"maxDepth":3,"skipFirstH1":true},"todo":{},"splitter":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"graph":{},"donate":{"alipay":"https://raw.githubusercontent.com/ds19991999/ds19991999.github.io/master/assets/images/alipayimg.jpg","alipayText":"支付宝打赏","button":"赏","title":"意思意思？","wechat":"https://raw.githubusercontent.com/ds19991999/ds19991999.github.io/master/assets/images/weipayimg.png","wechatText":"微信打赏"},"sitemap-general":{"prefix":"http://ds-ebooks.github.io/Guide/"},"katex":{},"fontsettings":{"theme":"white","family":"sans","size":2},"rss":{"categories":["gitbook"],"title":"学习向导","description":"提供专业化的书单，为自己建立一个清晰的学习路线.","author":"S","feed_url":"http://ds-ebooks.github.io/Guide/sitmap.xml","site_url":"http://ds-ebooks.github.io/Guide/","managingEditor":"super@ds-vip.top","webMaster":"super@ds-vip.top"},"musicxml":{},"sectionx":{"tag":"b"},"mermaid-gb3":{},"anchor-navigation-ex":{"isRewritePageTitle":true,"isShowTocTitleIcon":true,"tocLevel1Icon":"fa fa-hand-o-right","tocLevel2Icon":"fa fa-hand-o-right","tocLevel3Icon":"fa fa-hand-o-right"},"favicon":{"shortcut":"favicon.png","bookmark":"favicon.png"},"theme-comscore":{},"prism-themes":{},"alerts":{},"github-buttons":{"repo":"ds-ebooks/Guide","types":["star","watch","fork"],"size":"small"},"3-ba":{"configuration":"auto","token":"e0f7e2879e5634cc0f587da6721b6860"},"expandable-chapters-small":{},"local-video":{},"copy-code-button":{},"ga":{"configuration":"auto","token":"UA-123686345-1"},"klipse":{"myConfigKey":"it's the default value"},"advanced-emoji":{"embedEmojis":false},"include-codeblock":{"check":false,"edit":true,"fixlang":false,"lang":"","template":"ace","theme":"chrome","unindent":true},"sharing":{"qq":false,"all":["facebook","google","twitter","weibo","instapaper","linkedin","pocket","stumbleupon","qq","qzone"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"terminal":{"copyButtons":true,"fade":false,"style":"flat"},"edit-link":{"label":"Edit","base":"https://github.com/ds-ebooks/Guide/edit/gh-pages"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"anchors":{},"chart":{"type":"c3"},"search-plus":{}},"theme":"default","author":"S","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"学习向导","language":"zh-hans","output.name":"site","links":{"sidebar":{"Home":"https://www.ds-vip.top"}},"gitbook":"3.2.3","description":"提供专业化的书单，为自己建立一个清晰的学习路线."},"file":{"path":"other-language/c-cn.md","mtime":"2018-07-06T11:02:28.876Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-09-05T05:07:14.491Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ace/ace.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-mermaid-gb3/book/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-expandable-chapters-small/expandable-chapters-small.js"></script>
+        
+    
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sectionx/sectionx.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-donate/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-local-video/video.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-3-ba/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-terminal/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-alerts/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-musicxml/osmd.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-musicxml/musicxml.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-musicxml/promise.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-rss/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-ga/plugin.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    <script src="../gitbook/gitbook-plugin-mermaid-gb3/mermaid/mermaid.min.js"></script>
+
+    </body>
+</html>
+
